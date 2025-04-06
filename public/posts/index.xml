@@ -22,5 +22,164 @@
 </content>
     </item>
     
+    <item>
+      <title>How to Make Devblog With Hugo</title>
+      <link>http://localhost:1313/zomggang-devblog/posts/how-to-make-devblog-with-hugo/</link>
+      <pubDate>Fri, 04 Apr 2025 21:56:30 +0900</pubDate>
+      
+      <guid>http://localhost:1313/zomggang-devblog/posts/how-to-make-devblog-with-hugo/</guid>
+      <description>&lt;p&gt;지금까지 내가 만든 블로그 과정 정리!&lt;/p&gt;
+&lt;h2 id=&#34;-사전-준비&#34;&gt;✅ 사전 준비&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 계정&lt;/li&gt;
+&lt;li&gt;Hugo 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-1단계-github에서-repository생성&#34;&gt;✅ 1단계: GitHub에서 Repository생성&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이름: &lt;code&gt;zomggang-devblog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Public repository로 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-2단계-hugo설치&#34;&gt;✅ 2단계: Hugo설치&lt;/h2&gt;
+&lt;p&gt;왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.&lt;/p&gt;
+&lt;p&gt;Jekyll(Ruby 언어기반)과 Hugo(Go언어)&lt;/p&gt;
+&lt;h2 id=&#34;-hugo-vs-jekyll-비교&#34;&gt;🔍 Hugo vs Jekyll 비교&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;항목&lt;/th&gt;
+          &lt;th&gt;Jekyll&lt;/th&gt;
+          &lt;th&gt;Hugo&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;언어&lt;/td&gt;
+          &lt;td&gt;Ruby 기반&lt;/td&gt;
+          &lt;td&gt;Go 기반&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;빌드 속도&lt;/td&gt;
+          &lt;td&gt;느린 편 (특히 대규모 프로젝트)&lt;/td&gt;
+          &lt;td&gt;매우 빠름 ⚡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;설치 난이도&lt;/td&gt;
+          &lt;td&gt;Ruby 환경 필요 → Windows에서 조금 번거로움&lt;/td&gt;
+          &lt;td&gt;Go 포함되어 있어 설치 간단&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;사용성&lt;/td&gt;
+          &lt;td&gt;GitHub와 연동 쉬움 (공식 지원)&lt;/td&gt;
+          &lt;td&gt;GitHub도 사용 가능, 설정 필요&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;테마 수&lt;/td&gt;
+          &lt;td&gt;많음 (오래된 것도 있음)&lt;/td&gt;
+          &lt;td&gt;많고, 최신 트렌디한 테마 많음&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;커스터마이징&lt;/td&gt;
+          &lt;td&gt;다소 복잡&lt;/td&gt;
+          &lt;td&gt;비교적 쉬운 편&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;문서화&lt;/td&gt;
+          &lt;td&gt;풍부&lt;/td&gt;
+          &lt;td&gt;풍부하고 최신 문서 많음&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🎯 &lt;strong&gt;결론&lt;/strong&gt;:&lt;br&gt;
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;strong&gt;Hugo&lt;/strong&gt;를 선택했다.&lt;/p&gt;</description>
+      <content>&lt;p&gt;지금까지 내가 만든 블로그 과정 정리!&lt;/p&gt;
+&lt;h2 id=&#34;-사전-준비&#34;&gt;✅ 사전 준비&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 계정&lt;/li&gt;
+&lt;li&gt;Hugo 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-1단계-github에서-repository생성&#34;&gt;✅ 1단계: GitHub에서 Repository생성&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이름: &lt;code&gt;zomggang-devblog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Public repository로 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-2단계-hugo설치&#34;&gt;✅ 2단계: Hugo설치&lt;/h2&gt;
+&lt;p&gt;왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.&lt;/p&gt;
+&lt;p&gt;Jekyll(Ruby 언어기반)과 Hugo(Go언어)&lt;/p&gt;
+&lt;h2 id=&#34;-hugo-vs-jekyll-비교&#34;&gt;🔍 Hugo vs Jekyll 비교&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;항목&lt;/th&gt;
+          &lt;th&gt;Jekyll&lt;/th&gt;
+          &lt;th&gt;Hugo&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;언어&lt;/td&gt;
+          &lt;td&gt;Ruby 기반&lt;/td&gt;
+          &lt;td&gt;Go 기반&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;빌드 속도&lt;/td&gt;
+          &lt;td&gt;느린 편 (특히 대규모 프로젝트)&lt;/td&gt;
+          &lt;td&gt;매우 빠름 ⚡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;설치 난이도&lt;/td&gt;
+          &lt;td&gt;Ruby 환경 필요 → Windows에서 조금 번거로움&lt;/td&gt;
+          &lt;td&gt;Go 포함되어 있어 설치 간단&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;사용성&lt;/td&gt;
+          &lt;td&gt;GitHub와 연동 쉬움 (공식 지원)&lt;/td&gt;
+          &lt;td&gt;GitHub도 사용 가능, 설정 필요&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;테마 수&lt;/td&gt;
+          &lt;td&gt;많음 (오래된 것도 있음)&lt;/td&gt;
+          &lt;td&gt;많고, 최신 트렌디한 테마 많음&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;커스터마이징&lt;/td&gt;
+          &lt;td&gt;다소 복잡&lt;/td&gt;
+          &lt;td&gt;비교적 쉬운 편&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;문서화&lt;/td&gt;
+          &lt;td&gt;풍부&lt;/td&gt;
+          &lt;td&gt;풍부하고 최신 문서 많음&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🎯 &lt;strong&gt;결론&lt;/strong&gt;:&lt;br&gt;
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;strong&gt;Hugo&lt;/strong&gt;를 선택했다.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;hugo의-환경별-install-커맨드&#34;&gt;Hugo의 환경별 install 커맨드&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;
+일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;winget install Hugo.Hugo.Extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;보통은 choco로 설치하는 듯하다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco install hugo-extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-3단계-로컬에서-새-hugo사이트-생성&#34;&gt;✅ 3단계: 로컬에서 새 hugo사이트 생성&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;git submodule&lt;/strong&gt;&lt;/em&gt;을 사용할 수 있다는 건 정말 좋았다!&lt;br&gt;
+다른 블로그들을 참고해서 설치해봤지만,, 잘 안 됐는데 공식문서를 따라하니 쉽게 됐다&lt;br&gt;
+공식 문서 : &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;나의 경우&lt;/p&gt;
+&lt;h3 id=&#34;일단-repository명과-같은-사이트를-만들고&#34;&gt;일단 repository명과 같은 사이트를 만들고&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site zomggang-devblog
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;테마선택&#34;&gt;테마선택&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;
+&lt;img src=&#34;http://localhost:1313/zomggang-devblog/resources%5Cimage%5C20250406%5Chugo_theme.png&#34; alt=&#34;poster&#34;&gt;&lt;/p&gt;
+&lt;p&gt;원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
+공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다.
+조금 헤맸지만 일단 re-terminal은 문제없이 반영이 됐다!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;https://gohugo.io/host-and-deploy/host-on-github-pages/&lt;/a&gt;
+&amp;hellip;&lt;/p&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>

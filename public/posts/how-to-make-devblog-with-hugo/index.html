@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/zomggang-devblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=zomggang-devblog/livereload" data-no-instant defer></script>
+  
+    <title>How to Make Devblog With Hugo :: My New Hugo Site</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="지금까지 내가 만든 블로그 과정 정리!
+✅ 사전 준비 GitHub 계정 Hugo 설치 ✅ 1단계: GitHub에서 Repository생성 이름: zomggang-devblog Public repository로 생성 ✅ 2단계: Hugo설치 왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.
+Jekyll(Ruby 언어기반)과 Hugo(Go언어)
+🔍 Hugo vs Jekyll 비교 항목 Jekyll Hugo 언어 Ruby 기반 Go 기반 빌드 속도 느린 편 (특히 대규모 프로젝트) 매우 빠름 ⚡ 설치 난이도 Ruby 환경 필요 → Windows에서 조금 번거로움 Go 포함되어 있어 설치 간단 사용성 GitHub와 연동 쉬움 (공식 지원) GitHub도 사용 가능, 설정 필요 테마 수 많음 (오래된 것도 있음) 많고, 최신 트렌디한 테마 많음 커스터마이징 다소 복잡 비교적 쉬운 편 문서화 풍부 풍부하고 최신 문서 많음 🎯 결론:
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 Hugo를 선택했다.
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/zomggang-devblog/posts/how-to-make-devblog-with-hugo/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/zomggang-devblog/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/zomggang-devblog/img/theme-colors/orange.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/zomggang-devblog/img/theme-colors/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How to Make Devblog With Hugo">
+<meta property="og:description" content="지금까지 내가 만든 블로그 과정 정리!
+✅ 사전 준비 GitHub 계정 Hugo 설치 ✅ 1단계: GitHub에서 Repository생성 이름: zomggang-devblog Public repository로 생성 ✅ 2단계: Hugo설치 왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.
+Jekyll(Ruby 언어기반)과 Hugo(Go언어)
+🔍 Hugo vs Jekyll 비교 항목 Jekyll Hugo 언어 Ruby 기반 Go 기반 빌드 속도 느린 편 (특히 대규모 프로젝트) 매우 빠름 ⚡ 설치 난이도 Ruby 환경 필요 → Windows에서 조금 번거로움 Go 포함되어 있어 설치 간단 사용성 GitHub와 연동 쉬움 (공식 지원) GitHub도 사용 가능, 설정 필요 테마 수 많음 (오래된 것도 있음) 많고, 최신 트렌디한 테마 많음 커스터마이징 다소 복잡 비교적 쉬운 편 문서화 풍부 풍부하고 최신 문서 많음 🎯 결론:
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 Hugo를 선택했다.
+" />
+<meta property="og:url" content="http://localhost:1313/zomggang-devblog/posts/how-to-make-devblog-with-hugo/" />
+<meta property="og:site_name" content="My New Hugo Site" />
+
+  
+    <meta property="og:image" content="img/favicon/%!s(&lt;nil&gt;).png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-04-04 21:56:30 &#43;0900 JST" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/zomggang-devblog/">
+  <div class="logo">
+    re-Terminal
+  </div>
+</a>
+
+    </div>
+    
+    
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/zomggang-devblog/posts/how-to-make-devblog-with-hugo/">How to Make Devblog With Hugo</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-04-04</time>
+    
+</div>
+
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        <p>지금까지 내가 만든 블로그 과정 정리!</p>
+<h2 id="-사전-준비">✅ 사전 준비<a href="#-사전-준비" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>GitHub 계정</li>
+<li>Hugo 설치</li>
+</ul>
+<h2 id="-1단계-github에서-repository생성">✅ 1단계: GitHub에서 Repository생성<a href="#-1단계-github에서-repository생성" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>이름: <code>zomggang-devblog</code></li>
+<li>Public repository로 생성</li>
+</ul>
+<h2 id="-2단계-hugo설치">✅ 2단계: Hugo설치<a href="#-2단계-hugo설치" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.</p>
+<p>Jekyll(Ruby 언어기반)과 Hugo(Go언어)</p>
+<h2 id="-hugo-vs-jekyll-비교">🔍 Hugo vs Jekyll 비교<a href="#-hugo-vs-jekyll-비교" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<table>
+  <thead>
+      <tr>
+          <th>항목</th>
+          <th>Jekyll</th>
+          <th>Hugo</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>언어</td>
+          <td>Ruby 기반</td>
+          <td>Go 기반</td>
+      </tr>
+      <tr>
+          <td>빌드 속도</td>
+          <td>느린 편 (특히 대규모 프로젝트)</td>
+          <td>매우 빠름 ⚡</td>
+      </tr>
+      <tr>
+          <td>설치 난이도</td>
+          <td>Ruby 환경 필요 → Windows에서 조금 번거로움</td>
+          <td>Go 포함되어 있어 설치 간단</td>
+      </tr>
+      <tr>
+          <td>사용성</td>
+          <td>GitHub와 연동 쉬움 (공식 지원)</td>
+          <td>GitHub도 사용 가능, 설정 필요</td>
+      </tr>
+      <tr>
+          <td>테마 수</td>
+          <td>많음 (오래된 것도 있음)</td>
+          <td>많고, 최신 트렌디한 테마 많음</td>
+      </tr>
+      <tr>
+          <td>커스터마이징</td>
+          <td>다소 복잡</td>
+          <td>비교적 쉬운 편</td>
+      </tr>
+      <tr>
+          <td>문서화</td>
+          <td>풍부</td>
+          <td>풍부하고 최신 문서 많음</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>🎯 <strong>결론</strong>:<br>
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 <strong>Hugo</strong>를 선택했다.</p></blockquote>
+<h4 id="hugo의-환경별-install-커맨드">Hugo의 환경별 install 커맨드<a href="#hugo의-환경별-install-커맨드" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p><a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a>
+일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>winget install Hugo.Hugo.Extended
+</span></span></code></pre></div><p>보통은 choco로 설치하는 듯하다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>choco install hugo-extended
+</span></span></code></pre></div><hr>
+<h2 id="-3단계-로컬에서-새-hugo사이트-생성">✅ 3단계: 로컬에서 새 hugo사이트 생성<a href="#-3단계-로컬에서-새-hugo사이트-생성" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><em><strong>git submodule</strong></em>을 사용할 수 있다는 건 정말 좋았다!<br>
+다른 블로그들을 참고해서 설치해봤지만,, 잘 안 됐는데 공식문서를 따라하니 쉽게 됐다<br>
+공식 문서 : <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
+<p>나의 경우</p>
+<h3 id="일단-repository명과-같은-사이트를-만들고">일단 repository명과 같은 사이트를 만들고<a href="#일단-repository명과-같은-사이트를-만들고" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<pre tabindex="0"><code>hugo new site zomggang-devblog
+</code></pre><h3 id="테마선택">테마선택<a href="#테마선택" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>
+<img src="/resources%5Cimage%5C20250406%5Chugo_theme.png" alt="poster"></p>
+<p>원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
+공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다.
+조금 헤맸지만 일단 re-terminal은 문제없이 반영이 됐다!</p>
+<p><a href="https://gohugo.io/host-and-deploy/host-on-github-pages/">https://gohugo.io/host-and-deploy/host-on-github-pages/</a>
+&hellip;</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/zomggang-devblog/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
