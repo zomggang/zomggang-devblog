@@ -65,7 +65,7 @@ hugo new site zomggang-devblog
 ```
 ### 테마선택
 https://themes.gohugo.io/
-![poster](/resources\image\20250406\hugo_theme.png)
+![poster](https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png)
 
 원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
 공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다. 
