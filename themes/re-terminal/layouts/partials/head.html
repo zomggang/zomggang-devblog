@@ -44,6 +44,12 @@
   <link rel="apple-touch-icon" href="{{ printf "img/theme-colors/%s.png" (or .Params.color $.Site.Params.ThemeColor | default "orange") | absURL }}">
 {{ end }}
 
+{{/* CSS 불러오기 */}}
+<link rel="stylesheet" href="/css/custom.css">
+
+{{/* JS 불러오기 */}}
+<script src="/js/copy-code.js" defer></script>
+
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
 {{ if (isset $.Site.Params "twitter") }}
