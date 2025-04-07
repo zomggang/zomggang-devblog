@@ -2,3 +2,23 @@ baseURL = 'https://jo-gangeun.github.io/zomggang-devblog/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "re-terminal"
+[params]
+  displayFullLangName = true
+
+
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    title = 'Zomggang dev Blog'
+    weight = 1
+  [languages.ko]
+    languageCode = 'ko-kr'
+    languageName = '한국어'
+    title = '좀깡월드'
+  [languages.jp]
+    languageCode = 'jp'
+    languageName = '日本語'
+    title = 'Zomggang開発ブログ'
+    weight = 3
+  
