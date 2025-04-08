@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zomggang Devblog</title>
-    <link>http://localhost:1313/zomggang-devblog/ko/</link>
-    <description>Recent content on Zomggang Devblog</description>
+    <title>Posts on Zomggang Devblog</title>
+    <link>http://localhost:1313/zomggang-devblog/ko/posts/</link>
+    <description>Recent content in Posts on Zomggang Devblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Fri, 04 Apr 2025 21:56:30 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ko/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Apr 2025 21:56:30 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ko/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/zomggang-devblog/ko/posts/hello-world/</link>

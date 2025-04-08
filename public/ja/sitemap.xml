@@ -2,37 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/posts/hello-world/</loc>
+    <loc>http://localhost:1313/zomggang-devblog/ja/posts/hello-world/</loc>
     <lastmod>2025-04-04T21:56:30+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/zomggang-devblog/ja/posts/hello-world/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
                 href="http://localhost:1313/zomggang-devblog/ko/posts/hello-world/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/posts/how-to-make-devblog-with-hugo-copy/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/posts/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/zomggang-devblog/ja/posts/"
+                href="http://localhost:1313/zomggang-devblog/ja/posts/hello-world/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/</loc>
+    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/ja/posts/</loc>
+    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
                 href="http://localhost:1313/zomggang-devblog/ko/posts/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/zomggang-devblog/ja/posts/"
+                />
   </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/</loc>
+    <loc>http://localhost:1313/zomggang-devblog/ja/</loc>
     <lastmod>2025-04-04T21:56:30+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://localhost:1313/zomggang-devblog/ko/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -43,13 +48,13 @@
                 hreflang="ja"
                 href="http://localhost:1313/zomggang-devblog/ja/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/zomggang-devblog/ko/"
+                href="http://localhost:1313/zomggang-devblog/ko/categories/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -60,13 +65,13 @@
                 hreflang="ja"
                 href="http://localhost:1313/zomggang-devblog/ja/categories/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/zomggang-devblog/ko/categories/"
+                href="http://localhost:1313/zomggang-devblog/ko/tags/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -76,11 +81,6 @@
                 rel="alternate"
                 hreflang="ja"
                 href="http://localhost:1313/zomggang-devblog/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://localhost:1313/zomggang-devblog/ko/tags/"
                 />
   </url>
 </urlset>

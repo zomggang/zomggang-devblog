@@ -2,65 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/zomggang-devblog/posts/hello-world/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/posts/how-to-make-devblog-with-hugo/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/posts/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
+    <loc>http://localhost:1313/zomggang-devblog/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="http://localhost:1313/zomggang-devblog/jp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko-kr"
-                href="http://localhost:1313/zomggang-devblog/ko/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/zomggang-devblog/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="http://localhost:1313/zomggang-devblog/jp/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko-kr"
+                hreflang="ko"
                 href="http://localhost:1313/zomggang-devblog/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/zomggang-devblog/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/zomggang-devblog/categories/"
+                href="http://localhost:1313/zomggang-devblog/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/tags/</loc>
+    <loc>http://localhost:1313/zomggang-devblog/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="jp"
-                href="http://localhost:1313/zomggang-devblog/jp/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko-kr"
+                hreflang="ko"
                 href="http://localhost:1313/zomggang-devblog/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/zomggang-devblog/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/zomggang-devblog/tags/"
+                href="http://localhost:1313/zomggang-devblog/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/en/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://localhost:1313/zomggang-devblog/ko/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/zomggang-devblog/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/zomggang-devblog/en/"
                 />
   </url>
 </urlset>

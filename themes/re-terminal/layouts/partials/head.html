@@ -50,6 +50,13 @@
 {{/* JS 불러오기 */}}
 <script src="/js/copy-code.js" defer></script>
 
+<ul>
+  {{ range .Translations }}
+    <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+  {{ end }}
+</ul>
+
+
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary" />
 {{ if (isset $.Site.Params "twitter") }}

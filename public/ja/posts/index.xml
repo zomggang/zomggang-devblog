@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zomggang Devblog</title>
-    <link>http://localhost:1313/zomggang-devblog/ko/</link>
-    <description>Recent content on Zomggang Devblog</description>
+    <title>Posts on Zomggang Devblog</title>
+    <link>http://localhost:1313/zomggang-devblog/ja/posts/</link>
+    <description>Recent content in Posts on Zomggang Devblog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <lastBuildDate>Fri, 04 Apr 2025 21:56:30 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ko/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja</language>
+    <lastBuildDate>Fri, 04 Apr 2025 21:56:30 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ja/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/zomggang-devblog/ko/posts/hello-world/</link>
+      <link>http://localhost:1313/zomggang-devblog/ja/posts/hello-world/</link>
       <pubDate>Fri, 04 Apr 2025 21:56:30 +0900</pubDate>
       
-      <guid>http://localhost:1313/zomggang-devblog/ko/posts/hello-world/</guid>
+      <guid>http://localhost:1313/zomggang-devblog/ja/posts/hello-world/</guid>
       <description>&lt;p&gt;zomggang world&amp;rsquo;s now loading&lt;/p&gt;
 &lt;p&gt;좀깡월드 구축중&amp;hellip;&lt;/p&gt;
 &lt;p&gt;zommgang world ローディング中。。。&lt;/p&gt;</description>
@@ -24,138 +24,159 @@
     
     <item>
       <title>How to Make Devblog With Hugo</title>
-      <link>http://localhost:1313/zomggang-devblog/ko/posts/how-to-make-devblog-with-hugo-copy/</link>
+      <link>http://localhost:1313/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/</link>
       <pubDate>Fri, 04 Apr 2025 21:56:30 +0900</pubDate>
       
-      <guid>http://localhost:1313/zomggang-devblog/ko/posts/how-to-make-devblog-with-hugo-copy/</guid>
-      <description>&lt;p&gt;지금까지 내가 만든 블로그 과정 정리!&lt;/p&gt;
-&lt;h2 id=&#34;-사전-준비&#34;&gt;✅ 사전 준비&lt;/h2&gt;
+      <guid>http://localhost:1313/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/</guid>
+      <description>&lt;p&gt;今まで私が作ったブログのプロセスまとめ！&lt;/p&gt;
+&lt;h2 id=&#34;-事前準備&#34;&gt;✅ 事前準備&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;GitHub 계정&lt;/li&gt;
-&lt;li&gt;Hugo 설치&lt;/li&gt;
+&lt;li&gt;GitHubアカウント&lt;/li&gt;
+&lt;li&gt;Hugoインストール&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;-1단계-github에서-repository생성&#34;&gt;✅ 1단계: GitHub에서 Repository생성&lt;/h2&gt;
+&lt;h2 id=&#34;-1段階-githubでrepository生成&#34;&gt;✅ 1段階: GitHubでRepository生成&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;이름: &lt;code&gt;zomggang-devblog&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Public repository로 생성&lt;/li&gt;
+&lt;li&gt;名前： &lt;code&gt;zomggang-devblog&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Public repositoryで作成&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;-2단계-hugo설치&#34;&gt;✅ 2단계: Hugo설치&lt;/h2&gt;
-&lt;p&gt;왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.&lt;/p&gt;
-&lt;p&gt;Jekyll(Ruby 언어기반)과 Hugo(Go언어)&lt;/p&gt;
-&lt;h2 id=&#34;-hugo-vs-jekyll-비교&#34;&gt;🔍 Hugo vs Jekyll 비교&lt;/h2&gt;
+&lt;h2 id=&#34;-2段階-hugoインストール&#34;&gt;✅ 2段階: Hugoインストール&lt;/h2&gt;
+&lt;p&gt;なぜhugoなのか？ まず、Hugoは静的ページを作るツールです。開発者に挑戦した時はjekyllが主流だったようですが、最近はHugoがもっと速いとか、localで修正してすぐ反映される点で、Hugoをよく使ってるようです。&lt;/p&gt;
+&lt;p&gt;Jekyll(Ruby言語ベース)とHugo(Go言語)&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;항목&lt;/th&gt;
+          &lt;th&gt;項目&lt;/th&gt;
           &lt;th&gt;Jekyll&lt;/th&gt;
           &lt;th&gt;Hugo&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;언어&lt;/td&gt;
-          &lt;td&gt;Ruby 기반&lt;/td&gt;
-          &lt;td&gt;Go 기반&lt;/td&gt;
+          &lt;td&gt;言語&lt;/td&gt;
+          &lt;td&gt;Ruby 基盤&lt;/td&gt;
+          &lt;td&gt;Go 基盤&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;빌드 속도&lt;/td&gt;
-          &lt;td&gt;느린 편 (특히 대규모 프로젝트)&lt;/td&gt;
-          &lt;td&gt;매우 빠름 ⚡&lt;/td&gt;
+          &lt;td&gt;項目&lt;/td&gt;
+          &lt;td&gt;Jekyll&lt;/td&gt;
+          &lt;td&gt;Hugo&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;설치 난이도&lt;/td&gt;
-          &lt;td&gt;Ruby 환경 필요 → Windows에서 조금 번거로움&lt;/td&gt;
-          &lt;td&gt;Go 포함되어 있어 설치 간단&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;사용성&lt;/td&gt;
-          &lt;td&gt;GitHub와 연동 쉬움 (공식 지원)&lt;/td&gt;
-          &lt;td&gt;GitHub도 사용 가능, 설정 필요&lt;/td&gt;
+          &lt;td&gt;ビルド速度&lt;/td&gt;
+          &lt;td&gt;やや遅め（特に大規模プロジェクトの場合）&lt;/td&gt;
+          &lt;td&gt;非常に高速 ⚡&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;테마 수&lt;/td&gt;
-          &lt;td&gt;많음 (오래된 것도 있음)&lt;/td&gt;
-          &lt;td&gt;많고, 최신 트렌디한 테마 많음&lt;/td&gt;
+          &lt;td&gt;インストールの難易度&lt;/td&gt;
+          &lt;td&gt;Ruby環境が必要 → Windowsでは少し面倒&lt;/td&gt;
+          &lt;td&gt;Goが組み込まれており、インストールが簡単&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;커스터마이징&lt;/td&gt;
-          &lt;td&gt;다소 복잡&lt;/td&gt;
-          &lt;td&gt;비교적 쉬운 편&lt;/td&gt;
+          &lt;td&gt;使いやすさ&lt;/td&gt;
+          &lt;td&gt;GitHubとの連携が簡単（公式サポートあり）&lt;/td&gt;
+          &lt;td&gt;GitHubも使用可能だが、設定が必要&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;문서화&lt;/td&gt;
-          &lt;td&gt;풍부&lt;/td&gt;
-          &lt;td&gt;풍부하고 최신 문서 많음&lt;/td&gt;
+          &lt;td&gt;テーマの数&lt;/td&gt;
+          &lt;td&gt;多い（古いものも含まれる）&lt;/td&gt;
+          &lt;td&gt;多く、モダンでトレンド感のあるテーマが豊富&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;カスタマイズ性&lt;/td&gt;
+          &lt;td&gt;やや複雑&lt;/td&gt;
+          &lt;td&gt;比較的簡単&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドキュメントの充実度&lt;/td&gt;
+          &lt;td&gt;充実している&lt;/td&gt;
+          &lt;td&gt;充実しており、最新の情報も多い&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;🎯 &lt;strong&gt;결론&lt;/strong&gt;:&lt;br&gt;
-Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;strong&gt;Hugo&lt;/strong&gt;를 선택했다.&lt;/p&gt;</description>
-      <content>&lt;p&gt;지금까지 내가 만든 블로그 과정 정리!&lt;/p&gt;
-&lt;h2 id=&#34;-사전-준비&#34;&gt;✅ 사전 준비&lt;/h2&gt;
+&lt;p&gt;🎯 &lt;strong&gt;結論&lt;/strong&gt;：&lt;br&gt;
+自分は &lt;strong&gt;Windows環境&lt;/strong&gt; で開発しており、&lt;strong&gt;高速なビルド&lt;/strong&gt; と &lt;strong&gt;簡単なセットアップ&lt;/strong&gt; を重視しているため、&lt;strong&gt;Hugo&lt;/strong&gt; を選択しました。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;hugo의-환경별-install-커맨드&#34;&gt;Hugo의 환경별 install 커맨드&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;
+일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.&lt;/p&gt;</description>
+      <content>&lt;p&gt;今まで私が作ったブログのプロセスまとめ！&lt;/p&gt;
+&lt;h2 id=&#34;-事前準備&#34;&gt;✅ 事前準備&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;GitHub 계정&lt;/li&gt;
-&lt;li&gt;Hugo 설치&lt;/li&gt;
+&lt;li&gt;GitHubアカウント&lt;/li&gt;
+&lt;li&gt;Hugoインストール&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;-1단계-github에서-repository생성&#34;&gt;✅ 1단계: GitHub에서 Repository생성&lt;/h2&gt;
+&lt;h2 id=&#34;-1段階-githubでrepository生成&#34;&gt;✅ 1段階: GitHubでRepository生成&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;이름: &lt;code&gt;zomggang-devblog&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Public repository로 생성&lt;/li&gt;
+&lt;li&gt;名前： &lt;code&gt;zomggang-devblog&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Public repositoryで作成&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;-2단계-hugo설치&#34;&gt;✅ 2단계: Hugo설치&lt;/h2&gt;
-&lt;p&gt;왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.&lt;/p&gt;
-&lt;p&gt;Jekyll(Ruby 언어기반)과 Hugo(Go언어)&lt;/p&gt;
-&lt;h2 id=&#34;-hugo-vs-jekyll-비교&#34;&gt;🔍 Hugo vs Jekyll 비교&lt;/h2&gt;
+&lt;h2 id=&#34;-2段階-hugoインストール&#34;&gt;✅ 2段階: Hugoインストール&lt;/h2&gt;
+&lt;p&gt;なぜhugoなのか？ まず、Hugoは静的ページを作るツールです。開発者に挑戦した時はjekyllが主流だったようですが、最近はHugoがもっと速いとか、localで修正してすぐ反映される点で、Hugoをよく使ってるようです。&lt;/p&gt;
+&lt;p&gt;Jekyll(Ruby言語ベース)とHugo(Go言語)&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th&gt;항목&lt;/th&gt;
+          &lt;th&gt;項目&lt;/th&gt;
           &lt;th&gt;Jekyll&lt;/th&gt;
           &lt;th&gt;Hugo&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
       &lt;tr&gt;
-          &lt;td&gt;언어&lt;/td&gt;
-          &lt;td&gt;Ruby 기반&lt;/td&gt;
-          &lt;td&gt;Go 기반&lt;/td&gt;
+          &lt;td&gt;言語&lt;/td&gt;
+          &lt;td&gt;Ruby 基盤&lt;/td&gt;
+          &lt;td&gt;Go 基盤&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;빌드 속도&lt;/td&gt;
-          &lt;td&gt;느린 편 (특히 대규모 프로젝트)&lt;/td&gt;
-          &lt;td&gt;매우 빠름 ⚡&lt;/td&gt;
+          &lt;td&gt;項目&lt;/td&gt;
+          &lt;td&gt;Jekyll&lt;/td&gt;
+          &lt;td&gt;Hugo&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;설치 난이도&lt;/td&gt;
-          &lt;td&gt;Ruby 환경 필요 → Windows에서 조금 번거로움&lt;/td&gt;
-          &lt;td&gt;Go 포함되어 있어 설치 간단&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&lt;/td&gt;
+          &lt;td&gt;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;사용성&lt;/td&gt;
-          &lt;td&gt;GitHub와 연동 쉬움 (공식 지원)&lt;/td&gt;
-          &lt;td&gt;GitHub도 사용 가능, 설정 필요&lt;/td&gt;
+          &lt;td&gt;ビルド速度&lt;/td&gt;
+          &lt;td&gt;やや遅め（特に大規模プロジェクトの場合）&lt;/td&gt;
+          &lt;td&gt;非常に高速 ⚡&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;테마 수&lt;/td&gt;
-          &lt;td&gt;많음 (오래된 것도 있음)&lt;/td&gt;
-          &lt;td&gt;많고, 최신 트렌디한 테마 많음&lt;/td&gt;
+          &lt;td&gt;インストールの難易度&lt;/td&gt;
+          &lt;td&gt;Ruby環境が必要 → Windowsでは少し面倒&lt;/td&gt;
+          &lt;td&gt;Goが組み込まれており、インストールが簡単&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;커스터마이징&lt;/td&gt;
-          &lt;td&gt;다소 복잡&lt;/td&gt;
-          &lt;td&gt;비교적 쉬운 편&lt;/td&gt;
+          &lt;td&gt;使いやすさ&lt;/td&gt;
+          &lt;td&gt;GitHubとの連携が簡単（公式サポートあり）&lt;/td&gt;
+          &lt;td&gt;GitHubも使用可能だが、設定が必要&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
-          &lt;td&gt;문서화&lt;/td&gt;
-          &lt;td&gt;풍부&lt;/td&gt;
-          &lt;td&gt;풍부하고 최신 문서 많음&lt;/td&gt;
+          &lt;td&gt;テーマの数&lt;/td&gt;
+          &lt;td&gt;多い（古いものも含まれる）&lt;/td&gt;
+          &lt;td&gt;多く、モダンでトレンド感のあるテーマが豊富&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;カスタマイズ性&lt;/td&gt;
+          &lt;td&gt;やや複雑&lt;/td&gt;
+          &lt;td&gt;比較的簡単&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;ドキュメントの充実度&lt;/td&gt;
+          &lt;td&gt;充実している&lt;/td&gt;
+          &lt;td&gt;充実しており、最新の情報も多い&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;🎯 &lt;strong&gt;결론&lt;/strong&gt;:&lt;br&gt;
-Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;strong&gt;Hugo&lt;/strong&gt;를 선택했다.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;🎯 &lt;strong&gt;結論&lt;/strong&gt;：&lt;br&gt;
+自分は &lt;strong&gt;Windows環境&lt;/strong&gt; で開発しており、&lt;strong&gt;高速なビルド&lt;/strong&gt; と &lt;strong&gt;簡単なセットアップ&lt;/strong&gt; を重視しているため、&lt;strong&gt;Hugo&lt;/strong&gt; を選択しました。&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h4 id=&#34;hugo의-환경별-install-커맨드&#34;&gt;Hugo의 환경별 install 커맨드&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;
 일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.&lt;/p&gt;
