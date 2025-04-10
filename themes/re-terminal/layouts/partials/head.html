@@ -50,11 +50,13 @@
 {{/* JS 불러오기 */}}
 <script src="/js/copy-code.js" defer></script>
 
-<ul>
+<div class="language-switcher">
   {{ range .Translations }}
-    <li><a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a></li>
+    <a href="{{ .RelPermalink }}" class="{{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">
+      {{ .Language.LanguageName }}
+    </a>
   {{ end }}
-</ul>
+</div>
 
 
 <!-- Twitter Card -->

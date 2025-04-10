@@ -4,6 +4,16 @@ theme = 're-terminal'
 languageCode = 'ko'
 defaultContentLanguage = 'ko'
 defaultContentLanguageInSubdir = true
+pagination.pagerSize = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "orange"
+  showMenuItems = 3
+  fullWidthTheme = false
+  centerTheme = true
+  readingTime = true
+
 
 [languages]
 
@@ -21,3 +31,10 @@ contentDir = "content/en"
 languageName = "日本語"
 weight = 3
 contentDir = "content/jp"
+
+    [languages.ko.params.logo]
+      logoText = "HOME🏕️"
+    [languages.en.params.logo]
+      logoText = "HOME🏕️"
+    [languages.ja.params.logo]
+      logoText = "HOME🏕️"

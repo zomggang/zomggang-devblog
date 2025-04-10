@@ -60,7 +60,7 @@ choco install hugo-extended
 나의 경우 
 
 ### 일단 repository명과 같은 사이트를 만들고
-```
+```bash
 hugo new site zomggang-devblog
 ```
 ### 테마선택
@@ -76,12 +76,12 @@ https://themes.gohugo.io/
 이 테마는 적어도 Hugo **Extended** v0.128.x.가 필요하다. 
 
 #### install theme locally
-```
+```bash
 git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
 ```
 
 #### Install theme as a submodule
-```
+```bash
 hugo new site {blogName}
 cd {blogName}
 git init
@@ -93,20 +93,19 @@ git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone
 앞으로 버전이 오를 수도 있으니 서브모듈을 쓰는 것이 좋은듯.
 
 ### 4단계 : 일단 설치한 테마가 열리는지 확인해본다. How to run your site
-```
+```bash
 hugo server
 ```
 
 
 ## ✅ 4단계: 새로운 페이지(content) 만들기
 새로운 페이지를 만들어보자
-```
+```bash
 hugo new content content/posts/my-first-post.md
 ```
 
 그러면 아래와 같은 md파일이 만들어진다. 
-```
-
+```md
 +++
 title = 'My First Post'
 date = 2024-01-14T07:07:07+01:00
@@ -115,13 +114,15 @@ draft = true
 
 ```
 다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는
-> archetypes  
+```path 
+archetypes  
+```
 
 폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.  
 자꾸 에러가 나서 보니 내가 받은 테마가 가장 기본적인 것 같다.
 
 ### 이후에 개발 서버를 통해 빌드 후 사이트를 확인한다. 
-```
+```bash
 hugo server --buildDrafts
 hugo server -D
 ```
@@ -139,13 +140,13 @@ Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지�
 
 
 ### yaml파일로 workflow만들기
-```
+```bash
 mkdir -p .github/workflows
 touch .github/workflows/hugo.yaml
 ```
 왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다
 
-```
+```config
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
@@ -250,7 +251,7 @@ jobs:
 
 hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다
 
-```
+```bash
 baseURL = 'https://jo-gangeun.github.io/zomggang-devblog/'
 ```
 

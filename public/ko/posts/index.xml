@@ -169,8 +169,8 @@ Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;
 공식 문서 : &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;나의 경우&lt;/p&gt;
 &lt;h3 id=&#34;일단-repository명과-같은-사이트를-만들고&#34;&gt;일단 repository명과 같은 사이트를 만들고&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site zomggang-devblog
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;테마선택&#34;&gt;테마선택&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site zomggang-devblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;테마선택&#34;&gt;테마선택&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;
 &lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png&#34; alt=&#34;poster&#34;&gt;&lt;/p&gt;
 &lt;p&gt;원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
@@ -179,36 +179,34 @@ Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;
 &lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-re-terminal/#demo-and-some-blog-posts-about-re-terminal---httpsre-terminalnebrowsercom&#34;&gt;re-terminal theme link&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;이 테마는 적어도 Hugo &lt;strong&gt;Extended&lt;/strong&gt; v0.128.x.가 필요하다.&lt;/p&gt;
 &lt;h4 id=&#34;install-theme-locally&#34;&gt;install theme locally&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;install-theme-as-a-submodule&#34;&gt;Install theme as a submodule&lt;/h4&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site {blogName}
-cd {blogName}
-git init
-git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-echo &amp;#34;theme = &amp;#39;re-terminal&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;install-theme-as-a-submodule&#34;&gt;Install theme as a submodule&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;blogName&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;blogName&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;theme = &amp;#39;re-terminal&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; hugo.toml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.&lt;br&gt;
 앞으로 버전이 오를 수도 있으니 서브모듈을 쓰는 것이 좋은듯.&lt;/p&gt;
 &lt;h3 id=&#34;4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site&#34;&gt;4단계 : 일단 설치한 테마가 열리는지 확인해본다. How to run your site&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;-4단계-새로운-페이지content-만들기&#34;&gt;✅ 4단계: 새로운 페이지(content) 만들기&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-4단계-새로운-페이지content-만들기&#34;&gt;✅ 4단계: 새로운 페이지(content) 만들기&lt;/h2&gt;
 &lt;p&gt;새로운 페이지를 만들어보자&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new content content/posts/my-first-post.md
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;그러면 아래와 같은 md파일이 만들어진다.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
-+++
-title = &amp;#39;My First Post&amp;#39;
-date = 2024-01-14T07:07:07+01:00
-draft = true
-+++
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;archetypes&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.&lt;br&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content content/posts/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;그러면 아래와 같은 md파일이 만들어진다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+++
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title = &amp;#39;My First Post&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date = 2024-01-14T07:07:07+01:00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft = true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+++
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-path&#34; data-lang=&#34;path&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;archetypes&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.&lt;br&gt;
 자꾸 에러가 나서 보니 내가 받은 테마가 가장 기본적인 것 같다.&lt;/p&gt;
 &lt;h3 id=&#34;이후에-개발-서버를-통해-빌드-후-사이트를-확인한다&#34;&gt;이후에 개발 서버를 통해 빌드 후 사이트를 확인한다.&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo server --buildDrafts
-hugo server -D
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;페이지가 문제가 없다면 이제 배포다&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server --buildDrafts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;페이지가 문제가 없다면 이제 배포다&lt;/p&gt;
 &lt;h2 id=&#34;-5단계-github-actions로-배포하기&#34;&gt;✅ 5단계: Github Actions로 배포하기&lt;/h2&gt;
 &lt;p&gt;모든 건 공홈에서 !! &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;https://gohugo.io/host-and-deploy/host-on-github-pages/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;github에서의-설정을-수정한다&#34;&gt;Github에서의 설정을 수정한다.&lt;/h3&gt;
@@ -216,10 +214,10 @@ hugo server -D
 Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png&#34; alt=&#34;github action settings&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;yaml파일로-workflow만들기&#34;&gt;yaml파일로 workflow만들기&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;mkdir -p .github/workflows
-touch .github/workflows/hugo.yaml
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Sample workflow for building and deploying a Hugo site to GitHub Pages
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir -p .github/workflows
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;touch .github/workflows/hugo.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-config&#34; data-lang=&#34;config&#34;&gt;# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -317,8 +315,8 @@ jobs:
 &lt;p&gt;&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png&#34; alt=&#34;github actions에서 성공한 경우&#34;&gt;&lt;/p&gt;
 &lt;p&gt;사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다.&lt;/p&gt;
 &lt;p&gt;hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;https://jo-gangeun.github.io/zomggang-devblog/&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;baseURL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://jo-gangeun.github.io/zomggang-devblog/&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
 </content>
     </item>

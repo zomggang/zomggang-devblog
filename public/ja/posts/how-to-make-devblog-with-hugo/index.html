@@ -48,9 +48,9 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
 
 <script src="/js/copy-code.js" defer></script>
 
-<ul>
+<div class="language-switcher">
   
-</ul>
+</div>
 
 
 
@@ -72,7 +72,7 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
 <meta property="og:site_name" content="Zomggang Devblog" />
 
   
-    <meta property="og:image" content="img/favicon/%!s(&lt;nil&gt;).png">
+    <meta property="og:image" content="http://localhost:1313/zomggang-devblog/img/favicon/orange.png">
   
 
 <meta property="og:image:width" content="1200">
@@ -97,7 +97,7 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
 
 
 </head>
-<body class="">
+<body class="orange">
 
 
 
@@ -109,7 +109,7 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
     <div class="header__logo">
       <a href="http://localhost:1313/zomggang-devblog/">
   <div class="logo">
-    re-Terminal
+    HOME🏕️
   </div>
 </a>
 
@@ -129,7 +129,7 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
   </h1>
   <div class="post-meta"><time class="post-date">2025-04-04</time>
     
-</div>
+<span class="post-reading-time">4 min read (710 words)</span></div>
 
   
   
@@ -225,8 +225,8 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
 공식 문서 : <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
 <p>나의 경우</p>
 <h3 id="일단-repository명과-같은-사이트를-만들고">일단 repository명과 같은 사이트를 만들고<a href="#일단-repository명과-같은-사이트를-만들고" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
-<pre tabindex="0"><code>hugo new site zomggang-devblog
-</code></pre><h3 id="테마선택">테마선택<a href="#테마선택" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site zomggang-devblog
+</span></span></code></pre></div><h3 id="테마선택">테마선택<a href="#테마선택" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>
 <img src="https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png" alt="poster"></p>
 <p>원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
@@ -235,31 +235,30 @@ Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저�
 <p><a href="https://themes.gohugo.io/themes/hugo-theme-re-terminal/#demo-and-some-blog-posts-about-re-terminal---httpsre-terminalnebrowsercom">re-terminal theme link</a></p>
 <p>이 테마는 적어도 Hugo <strong>Extended</strong> v0.128.x.가 필요하다.</p>
 <h4 id="install-theme-locally">install theme locally<a href="#install-theme-locally" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<pre tabindex="0"><code>git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-</code></pre><h4 id="install-theme-as-a-submodule">Install theme as a submodule<a href="#install-theme-as-a-submodule" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<pre tabindex="0"><code>hugo new site {blogName}
-cd {blogName}
-git init
-git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-echo &#34;theme = &#39;re-terminal&#39;&#34; &gt;&gt; hugo.toml
-</code></pre><p>git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+</span></span></code></pre></div><h4 id="install-theme-as-a-submodule">Install theme as a submodule<a href="#install-theme-as-a-submodule" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site <span style="color:#f92672">{</span>blogName<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>cd <span style="color:#f92672">{</span>blogName<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;theme = &#39;re-terminal&#39;&#34;</span> &gt;&gt; hugo.toml
+</span></span></code></pre></div><p>git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.<br>
 앞으로 버전이 오를 수도 있으니 서브모듈을 쓰는 것이 좋은듯.</p>
 <h3 id="4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site">4단계 : 일단 설치한 테마가 열리는지 확인해본다. How to run your site<a href="#4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
-<pre tabindex="0"><code>hugo server
-</code></pre><h2 id="-4단계-새로운-페이지content-만들기">✅ 4단계: 새로운 페이지(content) 만들기<a href="#-4단계-새로운-페이지content-만들기" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><h2 id="-4단계-새로운-페이지content-만들기">✅ 4단계: 새로운 페이지(content) 만들기<a href="#-4단계-새로운-페이지content-만들기" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p>새로운 페이지를 만들어보자</p>
-<pre tabindex="0"><code>hugo new content content/posts/my-first-post.md
-</code></pre><p>그러면 아래와 같은 md파일이 만들어진다.</p>
-<pre tabindex="0"><code>
-+++
-title = &#39;My First Post&#39;
-date = 2024-01-14T07:07:07+01:00
-draft = true
-+++
-</code></pre><p>다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는</p>
-<blockquote>
-<p>archetypes</p></blockquote>
-<p>폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.<br>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content content/posts/my-first-post.md
+</span></span></code></pre></div><p>그러면 아래와 같은 md파일이 만들어진다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>title = &#39;My First Post&#39;
+</span></span><span style="display:flex;"><span>date = 2024-01-14T07:07:07+01:00
+</span></span><span style="display:flex;"><span>draft = true
+</span></span><span style="display:flex;"><span>+++
+</span></span></code></pre></div><p>다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> archetypes  
+</span></span></code></pre></div><p>폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.<br>
 자꾸 에러가 나서 보니 내가 받은 테마가 가장 기본적인 것 같다.</p>
 <h3 id="이후에-개발-서버를-통해-빌드-후-사이트를-확인한다">이후에 개발 서버를 통해 빌드 후 사이트를 확인한다.<a href="#이후에-개발-서버를-통해-빌드-후-사이트를-확인한다" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <pre tabindex="0"><code>hugo server --buildDrafts
@@ -272,10 +271,10 @@ hugo server -D
 Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.</p>
 <p><img src="https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png" alt="github action settings"></p>
 <h3 id="yaml파일로-workflow만들기">yaml파일로 workflow만들기<a href="#yaml파일로-workflow만들기" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
-<pre tabindex="0"><code>mkdir -p .github/workflows
-touch .github/workflows/hugo.yaml
-</code></pre><p>왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다</p>
-<pre tabindex="0"><code># Sample workflow for building and deploying a Hugo site to GitHub Pages
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p .github/workflows
+</span></span><span style="display:flex;"><span>touch .github/workflows/hugo.yaml
+</span></span></code></pre></div><p>왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다</p>
+<pre tabindex="0"><code class="language-config" data-lang="config"># Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -373,11 +372,31 @@ jobs:
 <p><img src="https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png" alt="github actions에서 성공한 경우"></p>
 <p>사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다.</p>
 <p>hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다</p>
-<pre tabindex="0"><code>baseURL = &#39;https://jo-gangeun.github.io/zomggang-devblog/&#39;
-</code></pre><p>이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>baseURL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://jo-gangeun.github.io/zomggang-devblog/&#39;</span>
+</span></span></code></pre></div><p>이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝</p>
 <p>&hellip;</p>
 
       </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="http://localhost:1313/zomggang-devblog/ja/posts/hello-world/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Hello World</span>
+            </a>
+        </span>
+        
+        
+    </div>
+</div>
 
   
 
