@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/zomggang-devblog/ko/about/</loc>
+    <lastmod>2025-04-11T21:46:21+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/ko/about/profile/profile/</loc>
+    <lastmod>2025-04-11T21:46:21+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/zomggang-devblog/ko/</loc>
+    <lastmod>2025-04-11T21:46:21+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/zomggang-devblog/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost:1313/zomggang-devblog/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://localhost:1313/zomggang-devblog/ko/"
+                />
+  </url><url>
     <loc>http://localhost:1313/zomggang-devblog/ko/posts/hello-world/</loc>
     <lastmod>2025-04-04T21:56:30+09:00</lastmod>
     <xhtml:link
@@ -29,24 +53,6 @@
                 rel="alternate"
                 hreflang="ko"
                 href="http://localhost:1313/zomggang-devblog/ko/posts/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/zomggang-devblog/ko/</loc>
-    <lastmod>2025-04-04T21:56:30+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/zomggang-devblog/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/zomggang-devblog/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://localhost:1313/zomggang-devblog/ko/"
                 />
   </url><url>
     <loc>http://localhost:1313/zomggang-devblog/ko/categories/</loc>

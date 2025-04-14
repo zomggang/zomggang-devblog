@@ -9,7 +9,7 @@ pagination.pagerSize = 5
 [params]
   contentTypeName = "posts"
   themeColor = "orange"
-  showMenuItems = 3
+  showMenuItems = 2
   fullWidthTheme = false
   centerTheme = true
   readingTime = true
@@ -38,3 +38,21 @@ contentDir = "content/jp"
       logoText = "HOME🏕️"
     [languages.ja.params.logo]
       logoText = "HOME🏕️"
+
+      [languages.ko.menu]
+      # Submenus is available since v2.1.0
+      # [[languages.ko.menu.main]]
+      #   identifier = "submenuParent"
+      #   name = "Submenu"
+      # [[languages.ko.menu.main]]
+      #   parent = "submenuParent"
+      #   identifier = "anItem"
+      #   name = "AnItem"
+      [[languages.ko.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/ko/about/"
+      [[languages.ko.menu.main]]
+        identifier = "showcase"
+        name = "Showcase"
+        url = "/showcase"
