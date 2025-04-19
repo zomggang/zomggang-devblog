@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Zomggang Devblog</title>
+    <link>http://localhost:1313/zomggang-devblog/ja/about/</link>
+    <description>Recent content in Abouts on Zomggang Devblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 11 Apr 2025 22:17:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ja/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プロフィール</title>
+      <link>http://localhost:1313/zomggang-devblog/ja/about/profile/profile/</link>
+      <pubDate>Fri, 11 Apr 2025 22:17:00 +0900</pubDate>
+      
+      <guid>http://localhost:1313/zomggang-devblog/ja/about/profile/profile/</guid>
+      <description>&lt;h2 id=&#34;-zomggangのエンジニアリングブログ--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggangのエンジニアリングブログ / 開発勉強ブログ&lt;/h2&gt;
+&lt;p&gt;Zomggangの技術ブログへようこそ！&lt;br&gt;
+このブログは、開発を通じて学んだ内容を整理・共有するための技術的な記録です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;韓国語・日本語・英語&lt;/strong&gt;でコンテンツを提供し、&lt;strong&gt;Java&lt;/strong&gt;、&lt;strong&gt;Spring&lt;/strong&gt;、&lt;strong&gt;React&lt;/strong&gt;、&lt;strong&gt;AWS&lt;/strong&gt;、&lt;strong&gt;CI/CD&lt;/strong&gt;、&lt;strong&gt;生産性向上&lt;/strong&gt;など、実務に役立つテーマを中心に扱っています。&lt;/p&gt;
+&lt;p&gt;このサイトは &lt;strong&gt;Hugo&lt;/strong&gt; で構築され、&lt;strong&gt;GitHub Pages&lt;/strong&gt; によりデプロイされています。多言語対応を活かし、様々な開発者や技術愛好家との知識共有を目指しています。&lt;/p&gt;
+&lt;p&gt;🌐 GitHub ブログ URL: &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;-zomggangのエンジニアリングブログ--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggangのエンジニアリングブログ / 開発勉強ブログ&lt;/h2&gt;
+&lt;p&gt;Zomggangの技術ブログへようこそ！&lt;br&gt;
+このブログは、開発を通じて学んだ内容を整理・共有するための技術的な記録です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;韓国語・日本語・英語&lt;/strong&gt;でコンテンツを提供し、&lt;strong&gt;Java&lt;/strong&gt;、&lt;strong&gt;Spring&lt;/strong&gt;、&lt;strong&gt;React&lt;/strong&gt;、&lt;strong&gt;AWS&lt;/strong&gt;、&lt;strong&gt;CI/CD&lt;/strong&gt;、&lt;strong&gt;生産性向上&lt;/strong&gt;など、実務に役立つテーマを中心に扱っています。&lt;/p&gt;
+&lt;p&gt;このサイトは &lt;strong&gt;Hugo&lt;/strong&gt; で構築され、&lt;strong&gt;GitHub Pages&lt;/strong&gt; によりデプロイされています。多言語対応を活かし、様々な開発者や技術愛好家との知識共有を目指しています。&lt;/p&gt;
+&lt;p&gt;🌐 GitHub ブログ URL: &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

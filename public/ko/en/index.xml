@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ens on Zomggang Devblog</title>
+    <link>http://localhost:1313/zomggang-devblog/ko/en/</link>
+    <description>Recent content in Ens on Zomggang Devblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 11 Apr 2025 22:17:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ko/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile</title>
+      <link>http://localhost:1313/zomggang-devblog/ko/en/about/profile/profile/</link>
+      <pubDate>Fri, 11 Apr 2025 22:17:00 +0900</pubDate>
+      
+      <guid>http://localhost:1313/zomggang-devblog/ko/en/about/profile/profile/</guid>
+      <description>&lt;h2 id=&#34;-zomggangs-engineering-blog--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggang&amp;rsquo;s Engineering Blog / 開発勉強ブログ&lt;/h2&gt;
+&lt;p&gt;Welcome to Zomggang&amp;rsquo;s engineering blog!&lt;br&gt;
+This is a technical blog where I document what I learn through hands-on development.&lt;/p&gt;
+&lt;p&gt;Content is available in &lt;strong&gt;Korean&lt;/strong&gt;, &lt;strong&gt;Japanese&lt;/strong&gt;, and &lt;strong&gt;English&lt;/strong&gt;, and covers practical topics such as &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Spring&lt;/strong&gt;, &lt;strong&gt;React&lt;/strong&gt;, &lt;strong&gt;AWS&lt;/strong&gt;, &lt;strong&gt;CI/CD&lt;/strong&gt;, and &lt;strong&gt;productivity hacks&lt;/strong&gt; relevant to real-world development.&lt;/p&gt;
+&lt;p&gt;Built with &lt;strong&gt;Hugo&lt;/strong&gt; and deployed via &lt;strong&gt;GitHub Pages&lt;/strong&gt;, this blog is designed with multilingual support to reach a diverse audience of developers and tech enthusiasts.&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;-zomggangs-engineering-blog--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggang&amp;rsquo;s Engineering Blog / 開発勉強ブログ&lt;/h2&gt;
+&lt;p&gt;Welcome to Zomggang&amp;rsquo;s engineering blog!&lt;br&gt;
+This is a technical blog where I document what I learn through hands-on development.&lt;/p&gt;
+&lt;p&gt;Content is available in &lt;strong&gt;Korean&lt;/strong&gt;, &lt;strong&gt;Japanese&lt;/strong&gt;, and &lt;strong&gt;English&lt;/strong&gt;, and covers practical topics such as &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Spring&lt;/strong&gt;, &lt;strong&gt;React&lt;/strong&gt;, &lt;strong&gt;AWS&lt;/strong&gt;, &lt;strong&gt;CI/CD&lt;/strong&gt;, and &lt;strong&gt;productivity hacks&lt;/strong&gt; relevant to real-world development.&lt;/p&gt;
+&lt;p&gt;Built with &lt;strong&gt;Hugo&lt;/strong&gt; and deployed via &lt;strong&gt;GitHub Pages&lt;/strong&gt;, this blog is designed with multilingual support to reach a diverse audience of developers and tech enthusiasts.&lt;/p&gt;
+&lt;p&gt;🌐 GitHub Blog URL: &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

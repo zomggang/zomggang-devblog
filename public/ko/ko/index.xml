@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Koes on Zomggang Devblog</title>
+    <link>http://localhost:1313/zomggang-devblog/ko/ko/</link>
+    <description>Recent content in Koes on Zomggang Devblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 11 Apr 2025 21:46:21 +0900</lastBuildDate><atom:link href="http://localhost:1313/zomggang-devblog/ko/ko/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Profile</title>
+      <link>http://localhost:1313/zomggang-devblog/ko/ko/about/profile/profile/</link>
+      <pubDate>Fri, 11 Apr 2025 21:46:21 +0900</pubDate>
+      
+      <guid>http://localhost:1313/zomggang-devblog/ko/ko/about/profile/profile/</guid>
+      <description>&lt;h2 id=&#34;-zomggangs-engineering-blog--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggang&amp;rsquo;s Engineering Blog / 開発勉強ブログ&lt;/h2&gt;
+&lt;p&gt;개발하면서 배운 내용을 정리하는 기술 블로그입니다.&lt;br&gt;
+한국어 · 日本語 · English로 된 콘텐츠를 제공하며, 주로 Java, Spring, React, AWS, CI/CD, 생산성 향상 등 실무 중심의 내용을 다룹니다.&lt;/p&gt;
+&lt;p&gt;GitHub Pages + Hugo로 제작되었으며, 멀티랭귀지 대응을 통해 다양한 독자층을 위한 기술 공유를 목표로 하고 있습니다.&lt;/p&gt;
+&lt;p&gt;github : 🌐 &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;</description>
+      <content>&lt;h2 id=&#34;-zomggangs-engineering-blog--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggang&amp;rsquo;s Engineering Blog / 開発勉強ブログ&lt;/h2&gt;
+&lt;p&gt;개발하면서 배운 내용을 정리하는 기술 블로그입니다.&lt;br&gt;
+한국어 · 日本語 · English로 된 콘텐츠를 제공하며, 주로 Java, Spring, React, AWS, CI/CD, 생산성 향상 등 실무 중심의 내용을 다룹니다.&lt;/p&gt;
+&lt;p&gt;GitHub Pages + Hugo로 제작되었으며, 멀티랭귀지 대응을 통해 다양한 독자층을 위한 기술 공유를 목표로 하고 있습니다.&lt;/p&gt;
+&lt;p&gt;github : 🌐 &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/zomggang-devblog/ko/ko/posts/hello-world/</link>
+      <pubDate>Fri, 04 Apr 2025 21:56:30 +0900</pubDate>
+      
+      <guid>http://localhost:1313/zomggang-devblog/ko/ko/posts/hello-world/</guid>
+      <description>&lt;p&gt;zomggang world&amp;rsquo;s now loading&lt;/p&gt;
+&lt;p&gt;좀깡월드 구축중&amp;hellip;&lt;/p&gt;
+&lt;p&gt;zommgang world ローディング中。。。&lt;/p&gt;</description>
+      <content>&lt;p&gt;zomggang world&amp;rsquo;s now loading&lt;/p&gt;
+&lt;p&gt;좀깡월드 구축중&amp;hellip;&lt;/p&gt;
+&lt;p&gt;zommgang world ローディング中。。。&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>How to Make Devblog With Hugo</title>
+      <link>http://localhost:1313/zomggang-devblog/ko/ko/posts/how-to-make-devblog-with-hugo-copy/</link>
+      <pubDate>Fri, 04 Apr 2025 21:56:30 +0900</pubDate>
+      
+      <guid>http://localhost:1313/zomggang-devblog/ko/ko/posts/how-to-make-devblog-with-hugo-copy/</guid>
+      <description>&lt;p&gt;지금까지 내가 만든 블로그 과정 정리!&lt;/p&gt;
+&lt;h2 id=&#34;-사전-준비&#34;&gt;✅ 사전 준비&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 계정&lt;/li&gt;
+&lt;li&gt;Hugo 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-1단계-github에서-repository생성&#34;&gt;✅ 1단계: GitHub에서 Repository생성&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이름: &lt;code&gt;zomggang-devblog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Public repository로 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-2단계-hugo설치&#34;&gt;✅ 2단계: Hugo설치&lt;/h2&gt;
+&lt;p&gt;왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.&lt;/p&gt;
+&lt;p&gt;Jekyll(Ruby 언어기반)과 Hugo(Go언어)&lt;/p&gt;
+&lt;h2 id=&#34;-hugo-vs-jekyll-비교&#34;&gt;🔍 Hugo vs Jekyll 비교&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;항목&lt;/th&gt;
+          &lt;th&gt;Jekyll&lt;/th&gt;
+          &lt;th&gt;Hugo&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;언어&lt;/td&gt;
+          &lt;td&gt;Ruby 기반&lt;/td&gt;
+          &lt;td&gt;Go 기반&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;빌드 속도&lt;/td&gt;
+          &lt;td&gt;느린 편 (특히 대규모 프로젝트)&lt;/td&gt;
+          &lt;td&gt;매우 빠름 ⚡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;설치 난이도&lt;/td&gt;
+          &lt;td&gt;Ruby 환경 필요 → Windows에서 조금 번거로움&lt;/td&gt;
+          &lt;td&gt;Go 포함되어 있어 설치 간단&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;사용성&lt;/td&gt;
+          &lt;td&gt;GitHub와 연동 쉬움 (공식 지원)&lt;/td&gt;
+          &lt;td&gt;GitHub도 사용 가능, 설정 필요&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;테마 수&lt;/td&gt;
+          &lt;td&gt;많음 (오래된 것도 있음)&lt;/td&gt;
+          &lt;td&gt;많고, 최신 트렌디한 테마 많음&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;커스터마이징&lt;/td&gt;
+          &lt;td&gt;다소 복잡&lt;/td&gt;
+          &lt;td&gt;비교적 쉬운 편&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;문서화&lt;/td&gt;
+          &lt;td&gt;풍부&lt;/td&gt;
+          &lt;td&gt;풍부하고 최신 문서 많음&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🎯 &lt;strong&gt;결론&lt;/strong&gt;:&lt;br&gt;
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;strong&gt;Hugo&lt;/strong&gt;를 선택했다.&lt;/p&gt;</description>
+      <content>&lt;p&gt;지금까지 내가 만든 블로그 과정 정리!&lt;/p&gt;
+&lt;h2 id=&#34;-사전-준비&#34;&gt;✅ 사전 준비&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub 계정&lt;/li&gt;
+&lt;li&gt;Hugo 설치&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-1단계-github에서-repository생성&#34;&gt;✅ 1단계: GitHub에서 Repository생성&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;이름: &lt;code&gt;zomggang-devblog&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Public repository로 생성&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-2단계-hugo설치&#34;&gt;✅ 2단계: Hugo설치&lt;/h2&gt;
+&lt;p&gt;왜 hugo인가? 일단 Hugo는 정적 페이지를 만드는 툴이다. 막 개발자 도전했을 때는 jekyll이 대세였던 것 같은데 요즘은 Hugo가 좀 더 빠른다거나 local에서 수정하고 바로 반영되는 점으로 Hugo를 많이 사용하는 것 같다.&lt;/p&gt;
+&lt;p&gt;Jekyll(Ruby 언어기반)과 Hugo(Go언어)&lt;/p&gt;
+&lt;h2 id=&#34;-hugo-vs-jekyll-비교&#34;&gt;🔍 Hugo vs Jekyll 비교&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;항목&lt;/th&gt;
+          &lt;th&gt;Jekyll&lt;/th&gt;
+          &lt;th&gt;Hugo&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;언어&lt;/td&gt;
+          &lt;td&gt;Ruby 기반&lt;/td&gt;
+          &lt;td&gt;Go 기반&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;빌드 속도&lt;/td&gt;
+          &lt;td&gt;느린 편 (특히 대규모 프로젝트)&lt;/td&gt;
+          &lt;td&gt;매우 빠름 ⚡&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;설치 난이도&lt;/td&gt;
+          &lt;td&gt;Ruby 환경 필요 → Windows에서 조금 번거로움&lt;/td&gt;
+          &lt;td&gt;Go 포함되어 있어 설치 간단&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;사용성&lt;/td&gt;
+          &lt;td&gt;GitHub와 연동 쉬움 (공식 지원)&lt;/td&gt;
+          &lt;td&gt;GitHub도 사용 가능, 설정 필요&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;테마 수&lt;/td&gt;
+          &lt;td&gt;많음 (오래된 것도 있음)&lt;/td&gt;
+          &lt;td&gt;많고, 최신 트렌디한 테마 많음&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;커스터마이징&lt;/td&gt;
+          &lt;td&gt;다소 복잡&lt;/td&gt;
+          &lt;td&gt;비교적 쉬운 편&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;문서화&lt;/td&gt;
+          &lt;td&gt;풍부&lt;/td&gt;
+          &lt;td&gt;풍부하고 최신 문서 많음&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🎯 &lt;strong&gt;결론&lt;/strong&gt;:&lt;br&gt;
+Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;strong&gt;Hugo&lt;/strong&gt;를 선택했다.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h4 id=&#34;hugo의-환경별-install-커맨드&#34;&gt;Hugo의 환경별 install 커맨드&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/installation/&#34;&gt;https://gohugo.io/installation/&lt;/a&gt;
+일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;winget install Hugo.Hugo.Extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;보통은 choco로 설치하는 듯하다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;choco install hugo-extended
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;-3단계-로컬에서-새-hugo사이트-생성&#34;&gt;✅ 3단계: 로컬에서 새 hugo사이트 생성&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;git submodule&lt;/strong&gt;&lt;/em&gt;을 사용할 수 있다는 건 정말 좋았다!&lt;br&gt;
+다른 블로그들을 참고해서 설치해봤지만,, 잘 안 됐는데 공식문서를 따라하니 쉽게 됐다&lt;br&gt;
+공식 문서 : &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;나의 경우&lt;/p&gt;
+&lt;h3 id=&#34;일단-repository명과-같은-사이트를-만들고&#34;&gt;일단 repository명과 같은 사이트를 만들고&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site zomggang-devblog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;테마선택&#34;&gt;테마선택&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;
+&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png&#34; alt=&#34;poster&#34;&gt;&lt;/p&gt;
+&lt;p&gt;원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
+공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다.
+조금 헤맸지만 일단 re-terminal은 문제없이 반영이 됐다!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/themes/hugo-theme-re-terminal/#demo-and-some-blog-posts-about-re-terminal---httpsre-terminalnebrowsercom&#34;&gt;re-terminal theme link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;이 테마는 적어도 Hugo &lt;strong&gt;Extended&lt;/strong&gt; v0.128.x.가 필요하다.&lt;/p&gt;
+&lt;h4 id=&#34;install-theme-locally&#34;&gt;install theme locally&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;install-theme-as-a-submodule&#34;&gt;Install theme as a submodule&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;blogName&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd &lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;blogName&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;theme = &amp;#39;re-terminal&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; hugo.toml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.&lt;br&gt;
+앞으로 버전이 오를 수도 있으니 서브모듈을 쓰는 것이 좋은듯.&lt;/p&gt;
+&lt;h3 id=&#34;4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site&#34;&gt;4단계 : 일단 설치한 테마가 열리는지 확인해본다. How to run your site&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;-4단계-새로운-페이지content-만들기&#34;&gt;✅ 4단계: 새로운 페이지(content) 만들기&lt;/h2&gt;
+&lt;p&gt;새로운 페이지를 만들어보자&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new content content/posts/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;그러면 아래와 같은 md파일이 만들어진다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+++
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title = &amp;#39;My First Post&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date = 2024-01-14T07:07:07+01:00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft = true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+++
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-path&#34; data-lang=&#34;path&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;archetypes&lt;/span&gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.&lt;br&gt;
+자꾸 에러가 나서 보니 내가 받은 테마가 가장 기본적인 것 같다.&lt;/p&gt;
+&lt;h3 id=&#34;이후에-개발-서버를-통해-빌드-후-사이트를-확인한다&#34;&gt;이후에 개발 서버를 통해 빌드 후 사이트를 확인한다.&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server --buildDrafts
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;페이지가 문제가 없다면 이제 배포다&lt;/p&gt;
+&lt;h2 id=&#34;-5단계-github-actions로-배포하기&#34;&gt;✅ 5단계: Github Actions로 배포하기&lt;/h2&gt;
+&lt;p&gt;모든 건 공홈에서 !! &lt;a href=&#34;https://gohugo.io/host-and-deploy/host-on-github-pages/&#34;&gt;https://gohugo.io/host-and-deploy/host-on-github-pages/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;github에서의-설정을-수정한다&#34;&gt;Github에서의 설정을 수정한다.&lt;/h3&gt;
+&lt;p&gt;Settings &amp;gt; Pages의 Build and deployment와
+Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png&#34; alt=&#34;github action settings&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;yaml파일로-workflow만들기&#34;&gt;yaml파일로 workflow만들기&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir -p .github/workflows
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;touch .github/workflows/hugo.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-config&#34; data-lang=&#34;config&#34;&gt;# Sample workflow for building and deploying a Hugo site to GitHub Pages
+name: Deploy Hugo site to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches:
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: &amp;#34;pages&amp;#34;
+  cancel-in-progress: false
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.145.0
+      HUGO_ENVIRONMENT: production
+      TZ: America/Los_Angeles
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          &amp;amp;&amp;amp; sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Install Node.js dependencies
+        run: &amp;#34;[[ -f package-lock.json || -f npm-shrinkwrap.json ]] &amp;amp;&amp;amp; npm ci || true&amp;#34;
+      - name: Cache Restore
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ${{ runner.temp }}/hugo_cache
+          key: hugo-${{ github.run_id }}
+          restore-keys:
+            hugo-
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --baseURL &amp;#34;${{ steps.pages.outputs.base_url }}/&amp;#34; \
+            --cacheDir &amp;#34;${{ runner.temp }}/hugo_cache&amp;#34;
+      - name: Cache Save
+        id: cache-save
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ${{ runner.temp }}/hugo_cache
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이 파일을 만든 후 commit 과 push를 하면 github repository에 반영이 된다.
+그럼과 동시에 Githubs Action에서 workflow가 실행이되는데&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png&#34; alt=&#34;github actions에서 성공한 경우&#34;&gt;&lt;/p&gt;
+&lt;p&gt;사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다.&lt;/p&gt;
+&lt;p&gt;hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;baseURL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://jo-gangeun.github.io/zomggang-devblog/&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝&lt;/p&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

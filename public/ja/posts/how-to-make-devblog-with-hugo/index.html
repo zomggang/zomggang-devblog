@@ -1,45 +1,322 @@
-<!doctype html><html lang=ja><head><title>How to Make Devblog With Hugo :: Zomggang Devblog</title>
-<meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="今まで私が作ったブログのプロセスまとめ！
+<!DOCTYPE html>
+<html lang="ja">
+<head><script src="/zomggang-devblog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=zomggang-devblog/livereload" data-no-instant defer></script>
+  
+    <title>How to Make Devblog With Hugo :: Zomggang Devblog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="今まで私が作ったブログのプロセスまとめ！
 ✅ 事前準備 GitHubアカウント Hugoインストール ✅ 1段階: GitHubでRepository生成 名前： zomggang-devblog. Public repositoryで作成 ✅ 2段階: Hugoインストール なぜhugoなのか？ まず、Hugoは静的ページを作るツールです。開発者に挑戦した時はjekyllが主流だったようですが、最近はHugoがもっと速いとか、localで修正してすぐ反映される点で、Hugoをよく使ってるようです。
 Jekyll(Ruby言語ベース)とHugo(Go言語)
 項目 Jekyll Hugo 言語 Ruby 基盤 Go 基盤 項目 Jekyll Hugo &mdash;&mdash;&mdash;&mdash;&ndash; &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; ビルド速度 やや遅め（特に大規模プロジェクトの場合） 非常に高速 ⚡ インストールの難易度 Ruby環境が必要 → Windowsでは少し面倒 Goが組み込まれており、インストールが簡単 使いやすさ GitHubとの連携が簡単（公式サポートあり） GitHubも使用可能だが、設定が必要 テーマの数 多い（古いものも含まれる） 多く、モダンでトレンド感のあるテーマが豊富 カスタマイズ性 やや複雑 比較的簡単 ドキュメントの充実度 充実している 充実しており、最新の情報も多い 🎯 結論：
 自分は Windows環境 で開発しており、高速なビルド と 簡単なセットアップ を重視しているため、Hugo を選択しました。
 Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.
-"><meta name=keywords content><meta name=robots content="noodp"><link rel=canonical href=https://jo-gangeun.github.io/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/><link rel=stylesheet href=https://jo-gangeun.github.io/zomggang-devblog/styles.css><link rel="shortcut icon" href=https://jo-gangeun.github.io/zomggang-devblog/img/theme-colors/orange.png><link rel=apple-touch-icon href=https://jo-gangeun.github.io/zomggang-devblog/img/theme-colors/orange.png><link rel=stylesheet href=/css/custom.css><script src=/js/copy-code.js defer></script><ul class="menu menu--desktop menu--language-selector" style=position:absolute;top:5px;right:1rem><li class=menu__trigger>日本語&nbsp;▾</li><li><ul class=menu__dropdown><li><a href=https://jo-gangeun.github.io/zomggang-devblog/ko/>한국어</a></li><li><a href=https://jo-gangeun.github.io/zomggang-devblog/en/>English</a></li><li><a href=https://jo-gangeun.github.io/zomggang-devblog/ja/>日本語</a></li></ul></li></ul><meta name=twitter:card content="summary"><meta property="og:locale" content="ja"><meta property="og:type" content="article"><meta property="og:title" content="How to Make Devblog With Hugo"><meta property="og:description" content="今まで私が作ったブログのプロセスまとめ！
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:1313/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/" />
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/zomggang-devblog/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="http://localhost:1313/zomggang-devblog/img/theme-colors/orange.png">
+  <link rel="apple-touch-icon" href="http://localhost:1313/zomggang-devblog/img/theme-colors/orange.png">
+
+
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+<script src="/js/copy-code.js" defer></script>
+
+<ul class="menu menu--desktop menu--language-selector" style="position: absolute; top: 5px; right: 1rem;">
+  <li class="menu__trigger">日本語&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        <li><a href="http://localhost:1313/zomggang-devblog/ko/">한국어</a></li>
+      
+        <li><a href="http://localhost:1313/zomggang-devblog/en/">English</a></li>
+      
+        <li><a href="http://localhost:1313/zomggang-devblog/ja/">日本語</a></li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="ja" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="How to Make Devblog With Hugo">
+<meta property="og:description" content="今まで私が作ったブログのプロセスまとめ！
 ✅ 事前準備 GitHubアカウント Hugoインストール ✅ 1段階: GitHubでRepository生成 名前： zomggang-devblog. Public repositoryで作成 ✅ 2段階: Hugoインストール なぜhugoなのか？ まず、Hugoは静的ページを作るツールです。開発者に挑戦した時はjekyllが主流だったようですが、最近はHugoがもっと速いとか、localで修正してすぐ反映される点で、Hugoをよく使ってるようです。
 Jekyll(Ruby言語ベース)とHugo(Go言語)
 項目 Jekyll Hugo 言語 Ruby 基盤 Go 基盤 項目 Jekyll Hugo &mdash;&mdash;&mdash;&mdash;&ndash; &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; ビルド速度 やや遅め（特に大規模プロジェクトの場合） 非常に高速 ⚡ インストールの難易度 Ruby環境が必要 → Windowsでは少し面倒 Goが組み込まれており、インストールが簡単 使いやすさ GitHubとの連携が簡単（公式サポートあり） GitHubも使用可能だが、設定が必要 テーマの数 多い（古いものも含まれる） 多く、モダンでトレンド感のあるテーマが豊富 カスタマイズ性 やや複雑 比較的簡単 ドキュメントの充実度 充実している 充実しており、最新の情報も多い 🎯 結論：
 自分は Windows環境 で開発しており、高速なビルド と 簡単なセットアップ を重視しているため、Hugo を選択しました。
 Hugo의 환경별 install 커맨드 https://gohugo.io/installation/ 일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.
-"><meta property="og:url" content="https://jo-gangeun.github.io/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/"><meta property="og:site_name" content="Zomggang Devblog"><meta property="og:image" content="https://jo-gangeun.github.io/zomggang-devblog/img/favicon/orange.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="627"><meta property="article:published_time" content="2025-04-04 21:56:30 +0900 JST"></head><body class=orange><div class="container center headings--one-size"><header class=header><div class=header__inner><div class=header__logo><a href=https://jo-gangeun.github.io/zomggang-devblog/><div class=logo>HOME🏕️</div></a></div></div></header><div class=content><article class=post><h1 class=post-title><a href=https://jo-gangeun.github.io/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/>How to Make Devblog With Hugo</a></h1><div class=post-meta><time class=post-date>2025-04-04</time>
-<span class=post-reading-time>4 min read (710 words)</span></div><div class=post-content><div><p>今まで私が作ったブログのプロセスまとめ！</p><h2 id=-事前準備>✅ 事前準備<a href=#-事前準備 class=hanchor arialabel=Anchor>&#8983;</a></h2><ul><li>GitHubアカウント</li><li>Hugoインストール</li></ul><h2 id=-1段階-githubでrepository生成>✅ 1段階: GitHubでRepository生成<a href=#-1段階-githubでrepository生成 class=hanchor arialabel=Anchor>&#8983;</a></h2><ul><li>名前： <code>zomggang-devblog</code>.</li><li>Public repositoryで作成</li></ul><h2 id=-2段階-hugoインストール>✅ 2段階: Hugoインストール<a href=#-2段階-hugoインストール class=hanchor arialabel=Anchor>&#8983;</a></h2><p>なぜhugoなのか？ まず、Hugoは静的ページを作るツールです。開発者に挑戦した時はjekyllが主流だったようですが、最近はHugoがもっと速いとか、localで修正してすぐ反映される点で、Hugoをよく使ってるようです。</p><p>Jekyll(Ruby言語ベース)とHugo(Go言語)</p><table><thead><tr><th>項目</th><th>Jekyll</th><th>Hugo</th></tr></thead><tbody><tr><td>言語</td><td>Ruby 基盤</td><td>Go 基盤</td></tr><tr><td>項目</td><td>Jekyll</td><td>Hugo</td></tr><tr><td>&mdash;&mdash;&mdash;&mdash;&ndash;</td><td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</td><td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td></tr><tr><td>ビルド速度</td><td>やや遅め（特に大規模プロジェクトの場合）</td><td>非常に高速 ⚡</td></tr><tr><td>インストールの難易度</td><td>Ruby環境が必要 → Windowsでは少し面倒</td><td>Goが組み込まれており、インストールが簡単</td></tr><tr><td>使いやすさ</td><td>GitHubとの連携が簡単（公式サポートあり）</td><td>GitHubも使用可能だが、設定が必要</td></tr><tr><td>テーマの数</td><td>多い（古いものも含まれる）</td><td>多く、モダンでトレンド感のあるテーマが豊富</td></tr><tr><td>カスタマイズ性</td><td>やや複雑</td><td>比較的簡単</td></tr><tr><td>ドキュメントの充実度</td><td>充実している</td><td>充実しており、最新の情報も多い</td></tr></tbody></table><blockquote><p>🎯 <strong>結論</strong>：<br>自分は <strong>Windows環境</strong> で開発しており、<strong>高速なビルド</strong> と <strong>簡単なセットアップ</strong> を重視しているため、<strong>Hugo</strong> を選択しました。</p></blockquote><h4 id=hugo의-환경별-install-커맨드>Hugo의 환경별 install 커맨드<a href=#hugo의-환경별-install-커맨드 class=hanchor arialabel=Anchor>&#8983;</a></h4><p><a href=https://gohugo.io/installation/>https://gohugo.io/installation/</a>
-일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-powershell data-lang=powershell><span style=display:flex><span>winget install Hugo.Hugo.Extended
-</span></span></code></pre></div><p>보통은 choco로 설치하는 듯하다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>choco install hugo-extended
-</span></span></code></pre></div><hr><h2 id=-3단계-로컬에서-새-hugo사이트-생성>✅ 3단계: 로컬에서 새 hugo사이트 생성<a href=#-3단계-로컬에서-새-hugo사이트-생성 class=hanchor arialabel=Anchor>&#8983;</a></h2><p><em><strong>git submodule</strong></em>을 사용할 수 있다는 건 정말 좋았다!<br>다른 블로그들을 참고해서 설치해봤지만,, 잘 안 됐는데 공식문서를 따라하니 쉽게 됐다<br>공식 문서 : <a href=https://gohugo.io/getting-started/quick-start/>https://gohugo.io/getting-started/quick-start/</a></p><p>나의 경우</p><h3 id=일단-repository명과-같은-사이트를-만들고>일단 repository명과 같은 사이트를 만들고<a href=#일단-repository명과-같은-사이트를-만들고 class=hanchor arialabel=Anchor>&#8983;</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>hugo new site zomggang-devblog
-</span></span></code></pre></div><h3 id=테마선택>테마선택<a href=#테마선택 class=hanchor arialabel=Anchor>&#8983;</a></h3><p><a href=https://themes.gohugo.io/>https://themes.gohugo.io/</a>
-<img src=https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png alt=poster></p><p>원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
+" />
+<meta property="og:url" content="http://localhost:1313/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/" />
+<meta property="og:site_name" content="Zomggang Devblog" />
+
+  
+    <meta property="og:image" content="http://localhost:1313/zomggang-devblog/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-04-04 21:56:30 &#43;0900 JST" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+</head>
+<body class="orange">
+
+
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:1313/zomggang-devblog/">
+  <div class="logo">
+    HOME🏕️
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/zomggang-devblog/ja/about/">About</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+      
+        
+          <li><a href="/zomggang-devblog/ja/about/" >About</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:1313/zomggang-devblog/ja/posts/how-to-make-devblog-with-hugo/">How to Make Devblog With Hugo</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-04-04</time>
+    
+<span class="post-reading-time">4 min read (710 words)</span></div>
+
+  
+  
+
+
+
+  
+
+  <div class="post-content"><div>
+        <p>今まで私が作ったブログのプロセスまとめ！</p>
+<h2 id="-事前準備">✅ 事前準備<a href="#-事前準備" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>GitHubアカウント</li>
+<li>Hugoインストール</li>
+</ul>
+<h2 id="-1段階-githubでrepository生成">✅ 1段階: GitHubでRepository生成<a href="#-1段階-githubでrepository生成" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<ul>
+<li>名前： <code>zomggang-devblog</code>.</li>
+<li>Public repositoryで作成</li>
+</ul>
+<h2 id="-2段階-hugoインストール">✅ 2段階: Hugoインストール<a href="#-2段階-hugoインストール" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>なぜhugoなのか？ まず、Hugoは静的ページを作るツールです。開発者に挑戦した時はjekyllが主流だったようですが、最近はHugoがもっと速いとか、localで修正してすぐ反映される点で、Hugoをよく使ってるようです。</p>
+<p>Jekyll(Ruby言語ベース)とHugo(Go言語)</p>
+<table>
+  <thead>
+      <tr>
+          <th>項目</th>
+          <th>Jekyll</th>
+          <th>Hugo</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>言語</td>
+          <td>Ruby 基盤</td>
+          <td>Go 基盤</td>
+      </tr>
+      <tr>
+          <td>項目</td>
+          <td>Jekyll</td>
+          <td>Hugo</td>
+      </tr>
+      <tr>
+          <td>&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+          <td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</td>
+          <td>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;</td>
+      </tr>
+      <tr>
+          <td>ビルド速度</td>
+          <td>やや遅め（特に大規模プロジェクトの場合）</td>
+          <td>非常に高速 ⚡</td>
+      </tr>
+      <tr>
+          <td>インストールの難易度</td>
+          <td>Ruby環境が必要 → Windowsでは少し面倒</td>
+          <td>Goが組み込まれており、インストールが簡単</td>
+      </tr>
+      <tr>
+          <td>使いやすさ</td>
+          <td>GitHubとの連携が簡単（公式サポートあり）</td>
+          <td>GitHubも使用可能だが、設定が必要</td>
+      </tr>
+      <tr>
+          <td>テーマの数</td>
+          <td>多い（古いものも含まれる）</td>
+          <td>多く、モダンでトレンド感のあるテーマが豊富</td>
+      </tr>
+      <tr>
+          <td>カスタマイズ性</td>
+          <td>やや複雑</td>
+          <td>比較的簡単</td>
+      </tr>
+      <tr>
+          <td>ドキュメントの充実度</td>
+          <td>充実している</td>
+          <td>充実しており、最新の情報も多い</td>
+      </tr>
+  </tbody>
+</table>
+<blockquote>
+<p>🎯 <strong>結論</strong>：<br>
+自分は <strong>Windows環境</strong> で開発しており、<strong>高速なビルド</strong> と <strong>簡単なセットアップ</strong> を重視しているため、<strong>Hugo</strong> を選択しました。</p></blockquote>
+<h4 id="hugo의-환경별-install-커맨드">Hugo의 환경별 install 커맨드<a href="#hugo의-환경별-install-커맨드" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<p><a href="https://gohugo.io/installation/">https://gohugo.io/installation/</a>
+일단 저는 Windows로 나는 최근의 단말을 포맷해서 Package Manager 의 npm조차 없어서 choco는 사용하지 못했고 기본 winget을 이용해 설치 했다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>winget install Hugo.Hugo.Extended
+</span></span></code></pre></div><p>보통은 choco로 설치하는 듯하다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>choco install hugo-extended
+</span></span></code></pre></div><hr>
+<h2 id="-3단계-로컬에서-새-hugo사이트-생성">✅ 3단계: 로컬에서 새 hugo사이트 생성<a href="#-3단계-로컬에서-새-hugo사이트-생성" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p><em><strong>git submodule</strong></em>을 사용할 수 있다는 건 정말 좋았다!<br>
+다른 블로그들을 참고해서 설치해봤지만,, 잘 안 됐는데 공식문서를 따라하니 쉽게 됐다<br>
+공식 문서 : <a href="https://gohugo.io/getting-started/quick-start/">https://gohugo.io/getting-started/quick-start/</a></p>
+<p>나의 경우</p>
+<h3 id="일단-repository명과-같은-사이트를-만들고">일단 repository명과 같은 사이트를 만들고<a href="#일단-repository명과-같은-사이트를-만들고" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site zomggang-devblog
+</span></span></code></pre></div><h3 id="테마선택">테마선택<a href="#테마선택" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p><a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>
+<img src="https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png" alt="poster"></p>
+<p>원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
 공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다.
-조금 헤맸지만 일단 re-terminal은 문제없이 반영이 됐다!</p><p><a href=https://themes.gohugo.io/themes/hugo-theme-re-terminal/#demo-and-some-blog-posts-about-re-terminal---httpsre-terminalnebrowsercom>re-terminal theme link</a></p><p>이 테마는 적어도 Hugo <strong>Extended</strong> v0.128.x.가 필요하다.</p><h4 id=install-theme-locally>install theme locally<a href=#install-theme-locally class=hanchor arialabel=Anchor>&#8983;</a></h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-</span></span></code></pre></div><h4 id=install-theme-as-a-submodule>Install theme as a submodule<a href=#install-theme-as-a-submodule class=hanchor arialabel=Anchor>&#8983;</a></h4><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>hugo new site <span style=color:#f92672>{</span>blogName<span style=color:#f92672>}</span>
-</span></span><span style=display:flex><span>cd <span style=color:#f92672>{</span>blogName<span style=color:#f92672>}</span>
-</span></span><span style=display:flex><span>git init
-</span></span><span style=display:flex><span>git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
-</span></span><span style=display:flex><span>echo <span style=color:#e6db74>&#34;theme = &#39;re-terminal&#39;&#34;</span> &gt;&gt; hugo.toml
-</span></span></code></pre></div><p>git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.<br>앞으로 버전이 오를 수도 있으니 서브모듈을 쓰는 것이 좋은듯.</p><h3 id=4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site>4단계 : 일단 설치한 테마가 열리는지 확인해본다. How to run your site<a href=#4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site class=hanchor arialabel=Anchor>&#8983;</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>hugo server
-</span></span></code></pre></div><h2 id=-4단계-새로운-페이지content-만들기>✅ 4단계: 새로운 페이지(content) 만들기<a href=#-4단계-새로운-페이지content-만들기 class=hanchor arialabel=Anchor>&#8983;</a></h2><p>새로운 페이지를 만들어보자</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>hugo new content content/posts/my-first-post.md
-</span></span></code></pre></div><p>그러면 아래와 같은 md파일이 만들어진다.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md><span style=display:flex><span>
-</span></span><span style=display:flex><span>+++
-</span></span><span style=display:flex><span>title = &#39;My First Post&#39;
-</span></span><span style=display:flex><span>date = 2024-01-14T07:07:07+01:00
-</span></span><span style=display:flex><span>draft = true
-</span></span><span style=display:flex><span>+++
-</span></span></code></pre></div><p>다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span> archetypes  
-</span></span></code></pre></div><p>폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.<br>자꾸 에러가 나서 보니 내가 받은 테마가 가장 기본적인 것 같다.</p><h3 id=이후에-개발-서버를-통해-빌드-후-사이트를-확인한다>이후에 개발 서버를 통해 빌드 후 사이트를 확인한다.<a href=#이후에-개발-서버를-통해-빌드-후-사이트를-확인한다 class=hanchor arialabel=Anchor>&#8983;</a></h3><pre tabindex=0><code>hugo server --buildDrafts
+조금 헤맸지만 일단 re-terminal은 문제없이 반영이 됐다!</p>
+<p><a href="https://themes.gohugo.io/themes/hugo-theme-re-terminal/#demo-and-some-blog-posts-about-re-terminal---httpsre-terminalnebrowsercom">re-terminal theme link</a></p>
+<p>이 테마는 적어도 Hugo <strong>Extended</strong> v0.128.x.가 필요하다.</p>
+<h4 id="install-theme-locally">install theme locally<a href="#install-theme-locally" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+</span></span></code></pre></div><h4 id="install-theme-as-a-submodule">Install theme as a submodule<a href="#install-theme-as-a-submodule" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site <span style="color:#f92672">{</span>blogName<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>cd <span style="color:#f92672">{</span>blogName<span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;theme = &#39;re-terminal&#39;&#34;</span> &gt;&gt; hugo.toml
+</span></span></code></pre></div><p>git clone이나 서브모듈을 사용해서 설치하면 되는데 어째 clone으로는 제대로 되지 않아서 submodule로 하니까 됐다.<br>
+앞으로 버전이 오를 수도 있으니 서브모듈을 쓰는 것이 좋은듯.</p>
+<h3 id="4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site">4단계 : 일단 설치한 테마가 열리는지 확인해본다. How to run your site<a href="#4단계--일단-설치한-테마가-열리는지-확인해본다-how-to-run-your-site" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><h2 id="-4단계-새로운-페이지content-만들기">✅ 4단계: 새로운 페이지(content) 만들기<a href="#-4단계-새로운-페이지content-만들기" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>새로운 페이지를 만들어보자</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new content content/posts/my-first-post.md
+</span></span></code></pre></div><p>그러면 아래와 같은 md파일이 만들어진다.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>+++
+</span></span><span style="display:flex;"><span>title = &#39;My First Post&#39;
+</span></span><span style="display:flex;"><span>date = 2024-01-14T07:07:07+01:00
+</span></span><span style="display:flex;"><span>draft = true
+</span></span><span style="display:flex;"><span>+++
+</span></span></code></pre></div><p>다른 예제들을 보면 author라던가 여러 value를 지정할 수 있는데 여기는</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span> archetypes  
+</span></span></code></pre></div><p>폴더 안에 정의가 되어 있는 속성들만 현재 사용할 수 있었다.<br>
+자꾸 에러가 나서 보니 내가 받은 테마가 가장 기본적인 것 같다.</p>
+<h3 id="이후에-개발-서버를-통해-빌드-후-사이트를-확인한다">이후에 개발 서버를 통해 빌드 후 사이트를 확인한다.<a href="#이후에-개발-서버를-통해-빌드-후-사이트를-확인한다" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<pre tabindex="0"><code>hugo server --buildDrafts
 hugo server -D
-</code></pre><p>페이지가 문제가 없다면 이제 배포다</p><h2 id=-5단계-github-actions로-배포하기>✅ 5단계: Github Actions로 배포하기<a href=#-5단계-github-actions로-배포하기 class=hanchor arialabel=Anchor>&#8983;</a></h2><p>모든 건 공홈에서 !! <a href=https://gohugo.io/host-and-deploy/host-on-github-pages/>https://gohugo.io/host-and-deploy/host-on-github-pages/</a></p><h3 id=github에서의-설정을-수정한다>Github에서의 설정을 수정한다.<a href=#github에서의-설정을-수정한다 class=hanchor arialabel=Anchor>&#8983;</a></h3><p>Settings > Pages의 Build and deployment와
-Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.</p><p><img src=https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png alt="github action settings"></p><h3 id=yaml파일로-workflow만들기>yaml파일로 workflow만들기<a href=#yaml파일로-workflow만들기 class=hanchor arialabel=Anchor>&#8983;</a></h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>mkdir -p .github/workflows
-</span></span><span style=display:flex><span>touch .github/workflows/hugo.yaml
-</span></span></code></pre></div><p>왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다</p><pre tabindex=0><code class=language-config data-lang=config># Sample workflow for building and deploying a Hugo site to GitHub Pages
+</code></pre><p>페이지가 문제가 없다면 이제 배포다</p>
+<h2 id="-5단계-github-actions로-배포하기">✅ 5단계: Github Actions로 배포하기<a href="#-5단계-github-actions로-배포하기" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>모든 건 공홈에서 !! <a href="https://gohugo.io/host-and-deploy/host-on-github-pages/">https://gohugo.io/host-and-deploy/host-on-github-pages/</a></p>
+<h3 id="github에서의-설정을-수정한다">Github에서의 설정을 수정한다.<a href="#github에서의-설정을-수정한다" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>Settings &gt; Pages의 Build and deployment와
+Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.</p>
+<p><img src="https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png" alt="github action settings"></p>
+<h3 id="yaml파일로-workflow만들기">yaml파일로 workflow만들기<a href="#yaml파일로-workflow만들기" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p .github/workflows
+</span></span><span style="display:flex;"><span>touch .github/workflows/hugo.yaml
+</span></span></code></pre></div><p>왠만해서는 공홈의 소스를 복붙하는 것을 추천하지만 일단 아래와 같다</p>
+<pre tabindex="0"><code class="language-config" data-lang="config"># Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
@@ -133,7 +410,74 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 </code></pre><p>이 파일을 만든 후 commit 과 push를 하면 github repository에 반영이 된다.
-그럼과 동시에 Githubs Action에서 workflow가 실행이되는데</p><p><img src=https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png alt="github actions에서 성공한 경우"></p><p>사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다.</p><p>hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>baseURL <span style=color:#f92672>=</span> <span style=color:#e6db74>&#39;https://jo-gangeun.github.io/zomggang-devblog/&#39;</span>
-</span></span></code></pre></div><p>이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝</p><p>&mldr;</p></div></div><div class=pagination><div class=pagination__title><span class=pagination__title-h></span><hr></div><div class=pagination__buttons><span class="button previous"><a href=https://jo-gangeun.github.io/zomggang-devblog/ja/posts/hello-world/><span class=button__icon>←</span>
-<span class=button__text>Hello World</span></a></span></div></div></article></div><footer class=footer><div class=footer__inner><div class=copyright><span>© 2025 Powered by <a href=https://gohugo.io>Hugo</a></span>
-<span>:: <a href=https://github.com/mirus-ua/hugo-theme-re-terminal target=_blank>Theme</a> made by <a href=https://github.com/mirus-ua target=_blank>Mirus</a></span></div></div></footer><script type=text/javascript src=/zomggang-devblog/bundle.min.js></script></div></body></html>
+그럼과 동시에 Githubs Action에서 workflow가 실행이되는데</p>
+<p><img src="https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png" alt="github actions에서 성공한 경우"></p>
+<p>사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다.</p>
+<p>hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>baseURL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://jo-gangeun.github.io/zomggang-devblog/&#39;</span>
+</span></span></code></pre></div><p>이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝</p>
+<p>&hellip;</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h"></span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="http://localhost:1313/zomggang-devblog/ja/posts/hello-world/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Hello World</span>
+            </a>
+        </span>
+        
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/mirus-ua/hugo-theme-re-terminal" target="_blank">Theme</a> made by <a href="https://github.com/mirus-ua" target="_blank">Mirus</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/zomggang-devblog/bundle.min.js"></script>
+
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

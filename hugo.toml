@@ -56,3 +56,11 @@ contentDir = "content/jp"
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
+      [[languages.ja.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/ja/about/"
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/en/about/"
