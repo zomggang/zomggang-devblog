@@ -10,4 +10,4 @@ title = 'Profile'
 
 GitHub Pages + Hugo로 제작되었으며, 멀티랭귀지 대응을 통해 다양한 독자층을 위한 기술 공유를 목표로 하고 있습니다.
 
-github : 🌐 https://jo-gangeun.github.io/zomggang-devblog
+github : 🌐 https://zomggang.github.io/zomggang-devblog

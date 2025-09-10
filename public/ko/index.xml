@@ -17,12 +17,12 @@
 &lt;p&gt;개발하면서 배운 내용을 정리하는 기술 블로그입니다.&lt;br&gt;
 한국어 · 日本語 · English로 된 콘텐츠를 제공하며, 주로 Java, Spring, React, AWS, CI/CD, 생산성 향상 등 실무 중심의 내용을 다룹니다.&lt;/p&gt;
 &lt;p&gt;GitHub Pages + Hugo로 제작되었으며, 멀티랭귀지 대응을 통해 다양한 독자층을 위한 기술 공유를 목표로 하고 있습니다.&lt;/p&gt;
-&lt;p&gt;github : 🌐 &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;github : 🌐 &lt;a href=&#34;https://zomggang.github.io/zomggang-devblog&#34;&gt;https://zomggang.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;</description>
       <content>&lt;h2 id=&#34;-zomggangs-engineering-blog--開発勉強ブログ&#34;&gt;🧑‍💻 Zomggang&amp;rsquo;s Engineering Blog / 開発勉強ブログ&lt;/h2&gt;
 &lt;p&gt;개발하면서 배운 내용을 정리하는 기술 블로그입니다.&lt;br&gt;
 한국어 · 日本語 · English로 된 콘텐츠를 제공하며, 주로 Java, Spring, React, AWS, CI/CD, 생산성 향상 등 실무 중심의 내용을 다룹니다.&lt;/p&gt;
 &lt;p&gt;GitHub Pages + Hugo로 제작되었으며, 멀티랭귀지 대응을 통해 다양한 독자층을 위한 기술 공유를 목표로 하고 있습니다.&lt;/p&gt;
-&lt;p&gt;github : 🌐 &lt;a href=&#34;https://jo-gangeun.github.io/zomggang-devblog&#34;&gt;https://jo-gangeun.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;github : 🌐 &lt;a href=&#34;https://zomggang.github.io/zomggang-devblog&#34;&gt;https://zomggang.github.io/zomggang-devblog&lt;/a&gt;&lt;/p&gt;
 </content>
     </item>
     
@@ -191,7 +191,7 @@ Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site zomggang-devblog
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;테마선택&#34;&gt;테마선택&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;https://themes.gohugo.io/&lt;/a&gt;
-&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png&#34; alt=&#34;poster&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://zomggang.github.io/zomggang-devblog/image/20250406/hugo_theme.png&#34; alt=&#34;poster&#34;&gt;&lt;/p&gt;
 &lt;p&gt;원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
 공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다.
 조금 헤맸지만 일단 re-terminal은 문제없이 반영이 됐다!&lt;/p&gt;
@@ -231,7 +231,7 @@ Windows 환경이고, 빠른 속도와 쉬운 셋업을 원했기 때문에 &lt;
 &lt;h3 id=&#34;github에서의-설정을-수정한다&#34;&gt;Github에서의 설정을 수정한다.&lt;/h3&gt;
 &lt;p&gt;Settings &amp;gt; Pages의 Build and deployment와
 Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png&#34; alt=&#34;github action settings&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zomggang.github.io/zomggang-devblog/image/20250406/github_action.png&#34; alt=&#34;github action settings&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;yaml파일로-workflow만들기&#34;&gt;yaml파일로 workflow만들기&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir -p .github/workflows
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;touch .github/workflows/hugo.yaml
@@ -331,10 +331,10 @@ jobs:
         uses: actions/deploy-pages@v4
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;이 파일을 만든 후 commit 과 push를 하면 github repository에 반영이 된다.
 그럼과 동시에 Githubs Action에서 workflow가 실행이되는데&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png&#34; alt=&#34;github actions에서 성공한 경우&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://zomggang.github.io/zomggang-devblog/image/20250406/github_action_success.png&#34; alt=&#34;github actions에서 성공한 경우&#34;&gt;&lt;/p&gt;
 &lt;p&gt;사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다.&lt;/p&gt;
 &lt;p&gt;hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;baseURL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://jo-gangeun.github.io/zomggang-devblog/&amp;#39;&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;baseURL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://zomggang.github.io/zomggang-devblog/&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝&lt;/p&gt;
 &lt;p&gt;&amp;hellip;&lt;/p&gt;
 </content>
