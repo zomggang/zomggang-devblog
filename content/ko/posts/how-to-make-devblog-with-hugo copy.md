@@ -65,7 +65,7 @@ hugo new site zomggang-devblog
 ```
 ### 테마선택
 https://themes.gohugo.io/
-![poster](https://jo-gangeun.github.io/zomggang-devblog/image/20250406/hugo_theme.png)
+![poster](https://zomggang.github.io/zomggang-devblog/image/20250406/hugo_theme.png)
 
 원래는 하고 싶었던 게 있었는데 무거워서 그런가,,, 도통 deploy가 안되길래 추천은
 공식이 추천하는 papermode나 좀 가벼워보이는 테마부터 넣어보는 것을 추천한다. 
@@ -136,7 +136,7 @@ hugo server -D
 Settings > Pages의 Build and deployment와 
 Source를 Github Actions로 수정하면 된다. 수정 후 아래의 이미지와 같다.
 
-![github action settings](https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action.png)
+![github action settings](https://zomggang.github.io/zomggang-devblog/image/20250406/github_action.png)
 
 
 ### yaml파일로 workflow만들기
@@ -245,14 +245,14 @@ jobs:
 이 파일을 만든 후 commit 과 push를 하면 github repository에 반영이 된다. 
 그럼과 동시에 Githubs Action에서 workflow가 실행이되는데
 
-![github actions에서 성공한 경우](https://jo-gangeun.github.io/zomggang-devblog/image/20250406/github_action_success.png)
+![github actions에서 성공한 경우](https://zomggang.github.io/zomggang-devblog/image/20250406/github_action_success.png)
 
 사실 이러면 404에러가 나오고 그랬는데 baseUrl을 바꿀 필요가 있었다. 
 
 hugo.toml의 BaseUrl을 아래와 같이 바꾸고, 빌드하면서 sitemap,index등이 루트 디렉토리가 잘 변경되었는지 확인해본다
 
 ```bash
-baseURL = 'https://jo-gangeun.github.io/zomggang-devblog/'
+baseURL = 'https://zomggang.github.io/zomggang-devblog/'
 ```
 
 이대로 다시 빌드해서 배포하면 문제없이 github pages가 배포된다! 끝
