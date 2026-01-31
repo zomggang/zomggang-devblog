@@ -1,46 +1,132 @@
-/* copy button */
-.copy-button {
-    position: absolute;
-    top: 0.25rem;
-    right: 0.5rem;
-    padding: 0.25rem 0.5rem;
-    font-size: 0.8rem;
-    background-color: #444;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  pre {
-    position: relative;
-  }
-  
+/* Google Fonts - Noto Sans KR, JP */
+:root {
+  --font-family-korean: 'Noto Sans KR', sans-serif;
+  --font-family-japanese: 'Noto Sans JP', sans-serif;
+  --font-family-base: 'Noto Sans KR', 'Noto Sans JP', sans-serif;
+}
 
-  /* language mode */
+/* ============================================
+   BRIGHTER DARK MODE - Light theme colors
+   ============================================ */
+html {
+  --background: #2a2e38 !important;
+  --color: #e8eaed !important;
+  --border-color: rgba(255, 255, 255, 0.2) !important;
+  --accent-contrast-color: #e8eaed !important;
+  --menu-color: #e8eaed !important;
+}
+
+/* Apply fonts to different languages */
+html {
+  font-family: var(--font-family-base);
+}
+
+/* Korean text */
+[lang="ko"],
+[lang="ko"] * {
+  font-family: var(--font-family-korean);
+}
+
+/* Japanese text */
+[lang="ja"],
+[lang="ja"] * {
+  font-family: var(--font-family-japanese);
+}
+
+/* Default body font */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* ============================================
+   POST CONTENT - Background styling
+   ============================================ */
+.post-content {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  padding: 2rem !important;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 2rem 0 !important;
+}
+
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   COPY BUTTON - Enhanced
+   ============================================ */
+
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  opacity: 0;
+}
+
+pre:hover .copy-button {
+  opacity: 1;
+}
+
+.copy-button:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+pre {
+  position: relative;
+}
+
+/* ============================================
+   LANGUAGE SWITCHER - Enhanced
+   ============================================ */
+
 .language-switcher {
   display: flex;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 0.5rem;
   margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+  flex-wrap: wrap;
 }
 
 .language-switcher a {
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-radius: 9999px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
   text-decoration: none;
-  color: #333;
+  color: #24292f;
   font-size: 0.9rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  background-color: white;
 }
 
 .language-switcher a:hover {
   background-color: #f0f0f0;
+  border-color: #0969da;
+  color: #0969da;
 }
 
 .language-switcher a.active {
-  font-weight: bold;
-  background-color: #d0ebff;
-  color: #0056b3;
+  background-color: #0969da;
+  color: white;
+  border-color: #0969da;
 }
