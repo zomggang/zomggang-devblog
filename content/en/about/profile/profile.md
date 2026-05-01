@@ -1,14 +1,16 @@
 +++
-date = '2025-04-11T21:46:21+09:00'
+date = '2025-04-11T22:17:00+09:00'
 draft = false
 title = 'Profile'
 +++
 
-## Zomggang's Engineering Blog
+## 🧑‍💻 Zomggang's Engineering Blog / 開発勉強ブログ
 
-A tech blog documenting what I learn through development.  
-Content available in Korean · Japanese · English, covering Java, Spring, React, AWS, CI/CD, and productivity topics.
+Welcome to Zomggang's engineering blog!  
+This is a technical blog where I document what I learn through hands-on development.
 
-Built with GitHub Pages + Hugo, aiming to share technical knowledge across multiple languages.
+Content is available in **Korean**, **Japanese**, and **English**, and covers practical topics such as **Java**, **Spring**, **React**, **AWS**, **CI/CD**, and **productivity hacks** relevant to real-world development.
 
-GitHub: https://zomggang.github.io/zomggang-devblog
+Built with **Hugo** and deployed via **GitHub Pages**, this blog is designed with multilingual support to reach a diverse audience of developers and tech enthusiasts.
+
+🌐 GitHub Blog URL: https://zomggang.github.io/zomggang-devblog
