@@ -13,4 +13,4 @@ Content is available in **Korean**, **Japanese**, and **English**, and covers pr
 
 Built with **Hugo** and deployed via **GitHub Pages**, this blog is designed with multilingual support to reach a diverse audience of developers and tech enthusiasts.
 
-🌐 GitHub Blog URL: [https://jo-gangeun.github.io/zomggang-devblog](https://jo-gangeun.github.io/zomggang-devblog)
+🌐 GitHub Blog URL: https://zomggang.github.io/zomggang-devblog

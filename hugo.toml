@@ -30,7 +30,7 @@ contentDir = "content/en"
 [languages.ja]
 languageName = "日本語"
 weight = 3
-contentDir = "content/jp"
+contentDir = "content/ja"
 
     [languages.ko.params.logo]
       logoText = "HOME🏕️"
@@ -56,11 +56,15 @@ contentDir = "content/jp"
         identifier = "showcase"
         name = "Showcase"
         url = "/showcase"
-      [[languages.ja.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/ja/about/"
+
+      [languages.en.menu]
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/en/about/"
+
+      [languages.ja.menu]
+      [[languages.ja.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/ja/about/"
